@@ -103,6 +103,16 @@ wp.blocks.registerBlockStyle( 'core/heading', {
 } );
 
 wp.blocks.registerBlockStyle( 'core/heading', {
+	name: 'h1-featured',
+	label: 'H1-Featured'
+} );
+
+wp.blocks.registerBlockStyle( 'core/heading', {
+	name: 'h1-featured-overflow',
+	label: 'H1-Featured & Overflow'
+} );
+
+wp.blocks.registerBlockStyle( 'core/heading', {
 	name: 'h2',
 	label: 'H2-Optik'
 } );

@@ -52,32 +52,12 @@ $page_header	= $override_header ?: $global_header;
 
 <body <?php body_class('w-body'); ?>>
 
-	<?php if($page_header['show_socialmedia'] && $global_social) { ?>
-		<div class="header-meta">
-			<div class="header-meta-inner">
-				<div class="header-meta-item">
-					<?php $social_profiles = $global_social;
-					include 'tpl/partials/social.php'; ?>
-				</div>
-			</div>
-		</div>
-	<?php } ?>
-	<header class="header header--sticky" id="header" role="banner">
-		<div class="header-inner">
-			<div class="header-container">
-				<div class="header-col">
-				    <div class="header-item header-item--logo">
-						<?php include_once 'tpl/partials/logo-function.php'; ?>
-						<?php include 'tpl/partials/logo.php'; ?>
-					</div>
-				</div>
-				<div class="header-col">
-					<?php include 'tpl/partials/header-nav.php'; ?>
-					<?php include 'tpl/partials/calltoaction.php'; ?>
-					<?php include 'tpl/partials/header-contact.php'; ?>
-					<?php include 'tpl/partials/header-lang.php'; ?>
-					<?php include 'tpl/partials/header-nav-mobile.php'; ?>
-				</div>
-			</div>
-		</div>
-	</header>
+    <header id="header">
+        <div class="logo-wrapper">
+            <?php include_once 'tpl/partials/logo-function.php'; ?>
+            <?php include 'tpl/partials/logo.php'; ?>
+        </div>
+        <div class="mainnav-wrapper">
+            <?php echo wp_nav_menu(array('menu' => 'Hauptmenü')); ?>
+        </div>
+    </header>
