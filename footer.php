@@ -28,52 +28,35 @@ $page_support	= $override_support ?: $global_support;
 // ----------------------------------------------------------------------
 ?>
 
-<footer class="footer">
-	<div class="footer-inner">
-		<div class="uk-grid uk-grid-large uk-flex-between">
-
-
-			<?php if($page_footer['show_contact'] && $global_contact) { ?>
-				<div class="uk-width-1-2@m uk-width-auto@l">
-					<div class="footer-item footer-contact">
-						<?php include 'tpl/partials/contact.php'; ?>
-					</div>
-				</div>
-			<?php } ?>
-
-
-			<?php if($page_footer['footer_text']) { ?>
-				<div class="uk-width-1-2@m uk-width-1-3@l">
-					<div class="footer-item footer-text">
-						<?= $global_footer['footer_text'] ?>
-					</div>
-				</div>
-			<?php } ?>
-
-
-			<div class="uk-width-auto@l uk-text-right@l">
-				<?php if($page_footer['show_logo'] && $page_logos) { ?>
-					<div class="footer-item footer-logo">
-						<?php include_once 'tpl/partials/logo-function.php'; ?>
-						<?php include 'tpl/partials/logo.php'; ?>
-					</div>
-				<?php } ?>
-				<?php if(has_nav_menu('footer')) { ?>
-					<div><div class="footer-item footer-menu">
-						<?php wp_nav_menu(array('theme_location' => 'footer', 'container' => false, 'fallback_cb' => false)); ?>
-					</div></div>
-				<?php } ?>
-				<?php if($page_footer['show_socialmedia'] && $global_social) { ?>
-					<div><div class="footer-item footer-social">
-						<?php $social_profiles = $global_social;
-						include 'tpl/partials/social.php'; ?>
-					</div></div>
-				<?php } ?>
-			</div>
-
-
-		</div>
-	</div>
+<div class="two-col-ansprechpartner">
+    <div class="col img-holder">
+    </div>
+    <div class="col">
+        <p class="adress"><strong>Deux Websolutions GmbH</strong> <span class="space-dot"></span> Im Kleigrund 5a, 26135 Oldenburg</p>
+        <div class="contact">
+            <a href="mailto:info@deux.de">info@deux.de</a>
+            <a href="tel:+4944193658002">0441 936 580 02</a>
+        </div>
+        <?php echo do_shortcode('[contact-form-7 id="229" title="Kontaktformular Ansprechpartner"]'); ?>
+    </div>
+</div>
+<footer id="footer">
+	<div class="alignwide">
+        <div class="flex-wrapper">
+            <div class="col img-wrapper logo-wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/deux-websolutions-logo-light.svg" alt="" />
+            </div>
+            <div class="col socials">
+                <?php if($page_footer['show_socialmedia'] && $global_social) { ?>
+                    <?php $social_profiles = $global_social;
+                    include 'tpl/partials/social.php'; ?>
+                <?php } ?>
+            </div>
+            <div class="col">
+                <?php echo wp_nav_menu(array('menu' => 'Footer')); ?>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <?php

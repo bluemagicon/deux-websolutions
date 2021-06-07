@@ -118,6 +118,11 @@ wp.blocks.registerBlockStyle( 'core/heading', {
 } );
 
 wp.blocks.registerBlockStyle( 'core/heading', {
+	name: 'h2-subheadline',
+	label: 'H2-Subheadline'
+} );
+
+wp.blocks.registerBlockStyle( 'core/heading', {
 	name: 'h3',
 	label: 'H3-Optik'
 } );

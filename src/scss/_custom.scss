@@ -1,3 +1,8 @@
+/*** GLOBAL ***/
+body{
+  max-width: 1920px;
+}
+
 /*** HEADER ***/
 #header{
   padding: 25px 5%;
@@ -39,6 +44,18 @@
   position: relative;
   z-index: 2;
 }
+.is-style-h2{
+  margin-bottom: 2rem !important;
+}
+.is-style-h2-subheadline{
+  em{
+    display: block;
+    font-weight: normal;
+    font-size: 0.42em;
+    letter-spacing: 2px;
+    font-style: normal;
+  }
+}
 
 /*** STARTSEITE ***/
 .page-template-page_startseite{
@@ -56,11 +73,13 @@
   #header{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1920px;
     width: 100%;
   }
 
-  /*** HEADLINES ***/
+  /*** HEADLINES & BUTTONS ***/
   h1,
   .is-style-h1{
     color: #000;
@@ -75,6 +94,26 @@
   .is-style-h1-featured-overflow em{
     color: $w-color-primary;
   }
+  .is-style-h2-subheadline em{
+    color: $w-color-primary;
+  }
+  a.button-plain{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 700;
+    &::after{
+      content: '';
+      display: block;
+      height: 10px;
+      width: 10px;
+      background-image: url('../../img/arrow-right.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 20px;
+    }
+  }
 
   /*** TWO-COL ***/
   .two-col-wrapper{
@@ -84,6 +123,9 @@
       .col{
         width: 45%;
         position: relative;
+        &:last-child{
+          width: 50%;
+        }
         &.align-right{
           text-align: right;
         }
@@ -125,17 +167,20 @@
       background-position: left top;
       background-repeat: no-repeat;
       padding: 150px 0 275px 0;
-      .col.img-wrapper::after{
-        content: '';
-        display: block;
-        position: absolute;
-        height: 130%;
-        width: 130%;
-        background-image: url('../../img/form-red.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        top: 5%;
-        left: -15%;
+      .col.img-wrapper{
+        width: 45%;
+        &:after{
+          content: '';
+          display: block;
+          position: absolute;
+          height: 130%;
+          width: 130%;
+          background-image: url('../../img/form-red.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+          top: 5%;
+          left: -15%;
+        }
       }
     }
     &.col-margin-top{
@@ -162,6 +207,14 @@
     }
     &.messbare-ergebnisse{
       padding: 75px;
+    }
+    &.warum-deux{
+      background-image: url('../../img/bg-warum-deux.svg');
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: auto 100%;
+      padding: 1200px 0 500px 0;
+      margin-top: -1000px;
     }
     &.leistungen{
       margin-top: -150px;
@@ -200,24 +253,36 @@
                 color: #fff;
                 margin-bottom: 25px;
               }
-              a{
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-                font-size: 0.8em;
-                font-weight: 700;
-                &::after{
-                  content: '';
-                  display: block;
-                  height: 10px;
-                  width: 10px;
-                  background-image: url('../../img/arrow-right.svg');
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                  margin-left: 20px;
-                }
-              }
             }
+          }
+        }
+      }
+    }
+  }
+  .projekte-slider-wrapper{
+    margin-top: -100px;
+    .flex-wrapper{
+      display: flex;
+      justify-content: space-between;
+      &.intro{
+        align-items: flex-end;
+        margin-bottom: 75px;
+        .col:first-child{
+          width: 45%;
+        }
+      }
+      &.slider-inner{
+        padding: 100px 0;
+        max-width: calc(960px + (2 * 7rem));
+        margin: 0 auto;
+        align-items: center;
+        .col{
+          width: 55%;
+          &:last-child{
+            width: 40%;
+            background: rgba(0,0,0,0.4);
+            padding: 35px;
+            color: #fff;
           }
         }
       }
@@ -235,5 +300,139 @@
 
   100% {
     border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
+  }
+}
+.two-col-ansprechpartner{
+  display: flex;
+  background: #fff;
+  .col{
+    width: 50%;
+    p{
+      &.adress{
+        display: flex;
+        align-items: center;
+        strong{
+          font-size: 1.1em;
+        }
+        span{
+          display: inline-block;
+          height: 8px;
+          width: 8px;
+          background: $w-color-primary;
+          margin: 0 15px;
+        }
+      }
+    }
+    .contact{
+      margin-bottom: 2rem;
+      display: flex;
+      a{
+        color: #000;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 0.88em;
+        &::before{
+          content: '';
+          display: block;
+          height: 20px;
+          width: 20px;
+          background-image: url('../../img/mail-send-line.svg');
+          background-size: contain;
+          margin-right: 5px;
+        }
+        &:last-child::before{
+          background-image: url('../../img/phone-line.svg');
+        }
+      }
+    }
+    &.img-holder{
+      background-image: url('../../img/dennis-deux-footer.jpg');
+      background-size: cover;
+      background-position: right center;
+    }
+    &:last-child{
+      padding: 7.5% 5%;
+      .wpcf7-list-item{
+        margin: 0;
+        label{
+          display: flex;
+          align-items: center;
+          .wpcf7-list-item-label{
+            font-size: .7em;
+            font-weight: normal;
+          }
+        }
+      }
+      .flex-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        align-items: center;
+        span{
+          width: 100%;
+          input[type="text"],
+          input[type="tel"],
+          input[type="email"],
+          textarea{
+            display: block;
+            width: 100%;
+            background: $w-bg-color-light;
+            resize: none;
+            border: 0;
+          }
+        }
+        &.half{
+          span{
+            width: 49%;
+          }
+        }
+      }
+    }
+  }
+}
+.wpcf7 .ajax-loader{
+  display: none !important;
+}
+#footer{
+  padding: 75px 0;
+  .flex-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .col{
+      &.logo-wrapper{
+        width: 218px;
+      }
+      &.socials{
+        a{
+          display: block;
+          svg{
+            display: block;
+            height: 30px;
+            width: 30px;
+            color: #bfbfc8;
+          }
+        }
+      }
+      &:last-child{
+        ul{
+          display: flex;
+          list-style: none;
+          li{
+            a{
+              font-size: 0.7em;
+              margin-right: 22px;
+              color: #bfbfc8;
+            }
+            &:last-child{
+              a{
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
