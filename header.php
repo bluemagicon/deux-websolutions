@@ -57,7 +57,9 @@ $page_header	= $override_header ?: $global_header;
             <?php include_once 'tpl/partials/logo-function.php'; ?>
             <?php include 'tpl/partials/logo.php'; ?>
         </div>
+        <!--
         <div class="mainnav-wrapper">
             <?php echo wp_nav_menu(array('menu' => 'Hauptmenü')); ?>
         </div>
+        -->
     </header>

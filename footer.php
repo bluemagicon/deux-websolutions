@@ -30,6 +30,19 @@ $page_support	= $override_support ?: $global_support;
 
 <div class="two-col-ansprechpartner">
     <div class="col img-holder">
+        <div class="content-wrapper">
+            <h2 class="is-style-h2-subheadline"><em>Jetzt Kontakt aufnehmen</em>was dürfen wir für sie tun?</h2>
+            <div class="card">
+                <div class="logo-wrapper">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/deux-websolutions-icon.svg" alt="" />
+                </div>
+                <p>dennis deux. <span>Geschäftsführung</span></p>
+                <div class="contact">
+                    <a href="mailto:info@deux.de">dennis@deux.de</a>
+                    <a href="tel:+4944193658002">0441 936 580 02</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="col">
         <p class="adress"><strong>Deux Websolutions GmbH</strong> <span class="space-dot"></span> Im Kleigrund 5a, 26135 Oldenburg</p>
