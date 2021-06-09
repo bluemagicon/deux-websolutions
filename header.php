@@ -11,6 +11,14 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
+    <!-- SLICK SLIDER -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 	<?php /*
 	<link rel="preload" href="<?= get_bloginfo('template_url') ?>/dist/fonts/source-sans-pro-v13-latin-regular.woff2" as="font" crossorigin="anonymous" />
 	<link rel="preload" href="<?= get_bloginfo('template_url') ?>/dist/fonts/source-sans-pro-v13-latin-600.woff2" as="font" crossorigin="anonymous" />
@@ -56,6 +64,10 @@ $page_header	= $override_header ?: $global_header;
         <div class="logo-wrapper">
             <?php include_once 'tpl/partials/logo-function.php'; ?>
             <?php include 'tpl/partials/logo.php'; ?>
+        </div>
+        <div class="contact">
+            <a href="mailto:info@deux.de">dennis@deux.de</a>
+            <a href="tel:+4944193658002">0441 936 580 02</a>
         </div>
         <!--
         <div class="mainnav-wrapper">

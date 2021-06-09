@@ -9,6 +9,9 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .contact{
+    margin-bottom: 0;
+  }
   .mainnav-wrapper ul{
     display: flex;
     margin: 0;
@@ -57,10 +60,96 @@ body{
     text-transform: uppercase;
   }
 }
+.button-primary{
+  background: #000000;
+  font-weight: 700;
+  color: #fff !important;
+  padding: 18px 20px 18px 20px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(to left, #000000 50%, $w-color-primary 50%) right;
+  background-size: calc(200% - 10px);
+  transition: .3s ease-in-out;
+  text-align: left;
+  width: auto !important;
+
+  &.without-arrow{
+    &::after{
+      display: none;
+    }
+  }
+
+  &::after{
+    content: '';
+    flex-shrink: 0;
+    display: block;
+    height: 12px;
+    width: 12px;
+    margin-left: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../img/arrow-right-white.svg');
+  }
+  &.blue{
+    background: linear-gradient(to left, #000000 50%, $w-color-secondary 50%) right;
+    background-size: calc(200% - 10px);
+  }
+  &.purple{
+    background: linear-gradient(to left, #000000 50%, $w-color-tertiary 50%) right;
+    background-size: calc(200% - 10px);
+  }
+  &:hover{
+    background-position: left;
+    background-size: 200%;
+  }
+}
+.slick-arrow-own{
+  cursor: pointer;
+  display: block;
+  width: 64px;
+  background-position: center;
+  background-size: 35% auto;
+  background-repeat: no-repeat;
+  background-image: url('../../img/slick-arrow-right.svg');
+  transition: all .3s;
+
+  &:hover{
+    filter: brightness(0.8);
+  }
+  &.red{
+    background-color: $w-color-primary;
+  }
+  &.blue{
+    background-color: $w-color-secondary;
+  }
+  &.slick-arrow-prev{
+    transform: rotate(180deg);
+  }
+}
+.slider-button-wrapper{
+  display: flex;
+  .button-primary{
+    margin: 0 10px;
+  }
+}
 
 /*** STARTSEITE ***/
 .page-template-page_startseite{
   background-color: $w-bg-color-light;
+
+  ul.triangle-list{
+    padding: 0;
+    list-style: none;
+    li{
+      background-image: url('../../img/list-style-blue.svg');
+      background-repeat: no-repeat;
+      background-size: 7px auto;
+      background-position: top 8px left;
+      padding-left: 20px;
+      font-weight: 700;
+    }
+  }
 
   .img-wrapper{
     display: block;
@@ -91,6 +180,9 @@ body{
     &.blue {
       color: $w-color-secondary;
     }
+  }
+  h4.blue{
+    color: $w-color-secondary;
   }
   .is-style-h1-featured-overflow em{
     color: $w-color-primary;
@@ -199,11 +291,33 @@ body{
       }
     }
     &.kunden-logos{
-      padding: 13.02vw 0 31.25vw 0;
+      padding: 17vw 0 31.25vw 0;
       background-image: url('../../img/kunden-logos-bg.svg');
       background-position: right center;
       background-repeat: no-repeat;
       background-size: auto 100%;
+      .kunden-logos-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .logo{
+          width: 18%;
+          margin-right: 9.3%;
+          margin-bottom: 9.3%;
+          img{
+            max-height: 75px;
+          }
+          &:nth-child(4n){
+            margin-right: 0;
+          }
+          &:nth-last-child(1),
+          &:nth-last-child(2),
+          &:nth-last-child(3),
+          &:nth-last-child(4){
+            margin-bottom: 0;
+          }
+        }
+      }
     }
     &.messbare-ergebnisse{
       padding: 75px 0;
@@ -215,6 +329,11 @@ body{
       background-size: auto 100%;
       padding: 62.5vw 0 26.04vw 0;
       margin-top: -52.08vw;
+      .slider-wrapper{
+        .slide{
+          margin: 20px 0;
+        }
+      }
     }
     &.leistungen{
       margin-top: -7.81vw;
@@ -302,6 +421,32 @@ body{
     border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
   }
 }
+.contact{
+  margin-bottom: 2rem;
+  display: flex;
+  a{
+    color: #000;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 0.88em;
+    &:last-child{
+      margin-right: 0;
+    }
+    &::before{
+      content: '';
+      display: block;
+      height: 20px;
+      width: 20px;
+      background-image: url('../../img/mail-send-line.svg');
+      background-size: contain;
+      margin-right: 5px;
+    }
+    &:last-child::before{
+      background-image: url('../../img/phone-line.svg');
+    }
+  }
+}
 .two-col-ansprechpartner{
   display: flex;
   background: #fff;
@@ -322,32 +467,6 @@ body{
           width: 8px;
           background: $w-color-primary;
           margin: 0 15px;
-        }
-      }
-    }
-    .contact{
-      margin-bottom: 2rem;
-      display: flex;
-      a{
-        color: #000;
-        display: flex;
-        align-items: center;
-        margin-right: 30px;
-        font-size: 0.88em;
-        &:last-child{
-          margin-right: 0;
-        }
-        &::before{
-          content: '';
-          display: block;
-          height: 20px;
-          width: 20px;
-          background-image: url('../../img/mail-send-line.svg');
-          background-size: contain;
-          margin-right: 5px;
-        }
-        &:last-child::before{
-          background-image: url('../../img/phone-line.svg');
         }
       }
     }
@@ -479,6 +598,12 @@ body{
       }
     }
   }
+}
+.wpcf7-not-valid-tip{
+  display: none !important;
+}
+.wpcf7-not-valid{
+  background: #f5595930 !important;
 }
 
 @media(max-width:1200px){
@@ -615,6 +740,25 @@ body{
               justify-content: flex-end;
             }
           }
+        }
+      }
+    }
+  }
+  #header{
+    .logo-wrapper{
+      width: 165px;
+    }
+    .contact{
+      a{
+        font-size: 0px;
+        margin-right: 15px;
+        &:last-child{
+          margin-righ: 0;
+        }
+        &::before{
+          margin-right: 0;
+          height: 30px;
+          width: 30px;
         }
       }
     }

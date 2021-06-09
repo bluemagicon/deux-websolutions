@@ -28,7 +28,7 @@ $page_support	= $override_support ?: $global_support;
 // ----------------------------------------------------------------------
 ?>
 
-<div class="two-col-ansprechpartner">
+<div class="two-col-ansprechpartner" id="ansprechpartner">
     <div class="col img-holder">
         <div class="content-wrapper">
             <h2 class="is-style-h2-subheadline"><em>Jetzt Kontakt aufnehmen</em>was dürfen wir für sie tun?</h2>
@@ -76,6 +76,9 @@ $page_support	= $override_support ?: $global_support;
 include 'tpl/partials/offcanvas.php';
 wp_footer() ;
 ?>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
