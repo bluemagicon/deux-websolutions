@@ -792,6 +792,16 @@ body{
       }
     }
   }
+  .warum-deux{
+    .alignwide{
+      &::before{
+        bottom: 0 !important;
+        top: inherit !important;
+        height: 50% !important;
+        width: 100% !important;
+      }
+    }
+  }
 }
 @media(max-width: 576px){
   .page-template-page_startseite .two-col-wrapper.messbare-ergebnisse,
