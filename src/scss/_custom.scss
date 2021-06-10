@@ -329,9 +329,20 @@ body{
       background-size: auto 100%;
       padding: 62.5vw 0 26.04vw 0;
       margin-top: -52.08vw;
-      .slider-wrapper{
-        .slide{
-          margin: 20px 0;
+      .alignwide{
+        position: relative;
+        &::before{
+          content: '';
+          display: block;
+          background: $w-color-secondary;
+          animation: morph 8s infinite ease-in-out;
+          border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
+          height: 100%;
+          transition: all 1s;
+          width: 50%;
+          position: absolute;
+          right: 0;
+          top: 0;
         }
       }
     }

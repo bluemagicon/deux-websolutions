@@ -203,7 +203,7 @@ get_header();
                             <div class="slick-arrow-own blue slick-arrow-prev"></div><a href="#" class="button-primary blue without-arrow">alle projekte ansehen</a><div class="slick-arrow-own blue slick-arrow-next"></div>
                         </div>
                     </div>
-                    <div class="col img-wrapper animated">
+                    <div class="col img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
                     </div>
                 </div>
@@ -218,7 +218,7 @@ get_header();
                             <div class="slick-arrow-own blue slick-arrow-prev"></div><a href="#" class="button-primary blue without-arrow">alle projekte ansehen</a><div class="slick-arrow-own blue slick-arrow-next"></div>
                         </div>
                     </div>
-                    <div class="col img-wrapper animated">
+                    <div class="col img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
                     </div>
                 </div>
@@ -233,7 +233,7 @@ get_header();
                             <div class="slick-arrow-own blue slick-arrow-prev"></div><a href="#" class="button-primary blue without-arrow">alle projekte ansehen</a><div class="slick-arrow-own blue slick-arrow-next"></div>
                         </div>
                     </div>
-                    <div class="col img-wrapper animated">
+                    <div class="col img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
                     </div>
                 </div>
@@ -248,7 +248,7 @@ get_header();
                             <div class="slick-arrow-own blue slick-arrow-prev"></div><a href="#" class="button-primary blue without-arrow">alle projekte ansehen</a><div class="slick-arrow-own blue slick-arrow-next"></div>
                         </div>
                     </div>
-                    <div class="col img-wrapper animated">
+                    <div class="col img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
                     </div>
                 </div>
@@ -263,7 +263,7 @@ get_header();
                             <div class="slick-arrow-own blue slick-arrow-prev"></div><a href="#" class="button-primary blue without-arrow">alle projekte ansehen</a><div class="slick-arrow-own blue slick-arrow-next"></div>
                         </div>
                     </div>
-                    <div class="col img-wrapper animated">
+                    <div class="col img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
                     </div>
                 </div>
