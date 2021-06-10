@@ -108,11 +108,13 @@ body{
   cursor: pointer;
   display: block;
   width: 64px;
+  min-height: 64px;
   background-position: center;
   background-size: 35% auto;
   background-repeat: no-repeat;
   background-image: url('../../img/slick-arrow-right.svg');
   transition: all .3s;
+  margin-right: 10px;
 
   &:hover{
     filter: brightness(0.8);
