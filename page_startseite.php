@@ -197,13 +197,13 @@ get_header();
                 <div class="flex-wrapper">
                     <div class="col">
                         <h2 class="is-style-h2">warum deux websolutions?</h2>
-                        <h4 class="blue">1. Über 10 Jahre Know-How.</h4>
-                        <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>
+                        <h3 class="blue is-style-h4">1. Nachweisbare Ergebnisse</h3>
+                        <p>Sie brauchen keine unsichere Wahl zu treffen, denn unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Individuellen Problemen begegnen wir mit individuellen Lösungen und liefern messbare Ergebnisse statt realitätsferne Versprechen.</p>
                         <div class="slider-button-wrapper">
-                            <div class="slick-arrow-own blue slick-arrow-prev"></div><a href="#" class="button-primary blue without-arrow">alle projekte ansehen</a><div class="slick-arrow-own blue slick-arrow-next"></div>
+                            <div class="slick-arrow-own blue slick-arrow-prev"></div><div class="slick-arrow-own blue slick-arrow-next"></div>
                         </div>
                     </div>
-                    <div class="col img-wrapper animated">
+                    <div class="col img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
                     </div>
                 </div>
@@ -212,13 +212,58 @@ get_header();
                 <div class="flex-wrapper">
                     <div class="col">
                         <h2 class="is-style-h2">warum deux websolutions?</h2>
-                        <h4 class="blue">2. Über 10 Jahre Know-How.</h4>
-                        <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>
+                        <h3 class="blue is-style-h4">2. Ehrlich und transparent</h3>
+                        <p>Wir glauben an Ehrlichkeit, an Integrität und an den Respekt gegenüber unseren Kunden. Wir bieten Ihnen, passend zu Ihrem Budget, individuelle Lösungen für messbare Erfolge.</p>
                         <div class="slider-button-wrapper">
-                            <div class="slick-arrow-own blue slick-arrow-prev"></div><a href="#" class="button-primary blue without-arrow">alle referenzen ansehen</a><div class="slick-arrow-own blue slick-arrow-next"></div>
+                            <div class="slick-arrow-own blue slick-arrow-prev"></div><div class="slick-arrow-own blue slick-arrow-next"></div>
                         </div>
                     </div>
-                    <div class="col img-wrapper animated">
+                    <div class="col img-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="flex-wrapper">
+                    <div class="col">
+                        <h2 class="is-style-h2">warum deux websolutions?</h2>
+                        <h3 class="blue is-style-h4">3. Wir wissen, was wir tun</h3>
+                        <p>Klingt selbstverständlich, ist es aber in vielen Fällen nicht: Als Webagentur in Oldenburg bestehen wir aus einem professionellen Team, das für digitales Marketing brennt und bestrebt darin ist, Sie mit echten Ergebnissen zu überzeugen.</p>
+                        <div class="slider-button-wrapper">
+                            <div class="slick-arrow-own blue slick-arrow-prev"></div><div class="slick-arrow-own blue slick-arrow-next"></div>
+                        </div>
+                    </div>
+                    <div class="col img-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="flex-wrapper">
+                    <div class="col">
+                        <h2 class="is-style-h2">warum deux websolutions?</h2>
+                        <h3 class="blue is-style-h4">4. Sie an erster Stelle</h3>
+                        <p>Für viele Agenturen ist eine kundenorientierte Ausrichtung eine Priorität und schmückt oft als wichtiger Verkaufspunkt ihre Webseiten, aber nur wenige ziehen diese Haltung auch durch. Wir versprechen Ihnen: Wir sind da mit über 10 Jahren Erfahrung und vielen namhaften Kunden anders.</p>
+                        <div class="slider-button-wrapper">
+                            <div class="slick-arrow-own blue slick-arrow-prev"></div><div class="slick-arrow-own blue slick-arrow-next"></div>
+                        </div>
+                    </div>
+                    <div class="col img-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="flex-wrapper">
+                    <div class="col">
+                        <h2 class="is-style-h2">warum deux websolutions?</h2>
+                        <h3 class="blue is-style-h4">5. Großes Netzwerk, große Lösungen</h3>
+                        <p>Wir haben uns auf wichtige Leistungen spezialisiert, die viele Probleme lösen können. Sollten wir dennoch an unsere Grenzen stoßen, wissen wir an wen wir uns wenden können, um Ihnen eben doch den Service zu liefern, den Sie als unser Kunde wünschen.</p>
+                        <div class="slider-button-wrapper">
+                            <div class="slick-arrow-own blue slick-arrow-prev"></div><div class="slick-arrow-own blue slick-arrow-next"></div>
+                        </div>
+                    </div>
+                    <div class="col img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt="" />
                     </div>
                 </div>
@@ -235,7 +280,7 @@ get_header();
                 <p>Die Auswahl der richtigen Internetagentur ist entscheidend für den Erfolg Ihres Projekts. Deshalb sind wir die Richtigen für Sie.</p>
             </div>
             <div class="col slider-button-wrapper">
-                <div class="slick-arrow-own red slick-arrow-prev"></div><a href="#" class="button-primary without-arrow">alle projekte ansehen</a><div class="slick-arrow-own red slick-arrow-next"></div>
+                <div class="slick-arrow-own red slick-arrow-prev"></div><div class="slick-arrow-own red slick-arrow-next"></div>
             </div>
         </div>
     </div>
