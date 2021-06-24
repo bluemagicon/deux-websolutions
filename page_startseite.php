@@ -9,14 +9,14 @@ get_header();
     <div id="home-section-hero" class="">
         <div class="alignwide">
             <div uk-grid>
-                <div class="uk-width-1-2 uk-margin-auto-vertical">
+                <div class="uk-width-1-2@m uk-margin-auto-vertical">
                     <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
                     <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> messbare Ergebnisse.
                     </h3>
                     <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen. Unsere Mission ist die Umsetzung von kreativen Online-Marketing-Maßnahmen, damit Sie maximale Ergebnisse für Ihr Werbebudget verzeichnen können.</p>
                     <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
                 </div>
-                <div class="uk-width-1-2 img-wrapper hero-img">
+                <div class="uk-width-1-2@m img-wrapper hero-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/hero-main-img.png" alt=""/>
                 </div>
             </div>
@@ -27,10 +27,10 @@ get_header();
     <div id="home-section-zitat">
         <div class="alignwide">
             <div uk-grid>
-                <div class="img-wrapper animated uk-width-1-2">
+                <div class="img-wrapper animated uk-width-1-2@m">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
                 </div>
-                <div class="uk-width-1-2 uk-margin-auto-vertical uk-text-right">
+                <div class="uk-width-1-2@m uk-margin-auto-vertical uk-text-right">
                     <h2 class="is-style-h1 txt-blue">Unser Antrieb sind messbare Ergebnisse</h2>
                     <p class="zitat"><strong>Dennis Deux.</strong> <em>Geschäftsführer</em></p>
                 </div>
@@ -42,13 +42,13 @@ get_header();
     <div id="home-section-kunden">
         <div class="alignwide">
             <div uk-grid>
-                <div class="uk-width-1-2 content-wrapper">
+                <div class="uk-width-1-2@m content-wrapper">
                     <strong class="subheadline">Für wen wir arbeiten</strong>
                     <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
                     <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus den verschiedensten Branchen. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise mit dem ständigen Ziel Großartiges für Sie zu leisten.</p>
                     <p>Unsere Kommunikationsweise versteht sich menschlich und verständlich, weil wir uns ungerne in Fachtermini verlieren und Ihnen in erster Linie zuhören. Auf diese Weise hören wir oft unentdeckte Potenziale heraus und begegnen diesen mit kreativen Lösungen.</p>
                 </div>
-                <div class="uk-width-1-2">
+                <div class="uk-width-1-2@m">
                     <div uk-grid class="kundenlogos uk-grid-large">
                         <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-logo.svg" alt="Audioblock"/>
@@ -109,7 +109,7 @@ get_header();
         <div class="alignwide">
 
             <div uk-grid>
-                <div class="uk-width-1-2">
+                <div class="uk-width-1-2@l">
                     <div uk-sticky="offset: 100; bottom: true">
                         <strong class="subheadline">Was wir anbieten</strong>
                         <h2 class="is-style-h2">Unsere Leistungen.</h2>
@@ -124,10 +124,10 @@ get_header();
                     </div>
                 </div>
 
-                <div class="uk-width-1-2" id="home-leistungen">
+                <div class="uk-width-1-2@l" id="home-leistungen">
                     <div uk-grid class="uk-grid-medium">
 
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-2@s">
                             <div class="teaser first-child">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/websites.svg" alt="Websites & Webdesign aus Oldenburg"/>
@@ -160,7 +160,7 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-2@s">
                             <div class="teaser">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/onlineshops.svg" alt="Onlineshops und E-Commerce"/>
@@ -208,7 +208,7 @@ get_header();
             <div class="slider-wrapper slider-warum-deux">
                 <div class="slide">
                     <div uk-grid>
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-2@m">
                             <div class="content-wrapper">
                                 <h3 class="txt-blue is-style-h4">1. Nachweisbare Ergebnisse</h3>
                                 <p>Sie brauchen keine unsichere Wahl zu treffen, denn unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Individuellen Problemen begegnen wir mit individuellen Lösungen und liefern messbare Ergebnisse statt realitätsferne Versprechen.</p>
@@ -219,7 +219,7 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="img-wrapper animated uk-width-1-2">
+                        <div class="img-wrapper animated uk-width-1-2@m">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
                         </div>
                     </div>
@@ -227,7 +227,7 @@ get_header();
 
                 <div class="slide">
                     <div uk-grid>
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-2@m">
                             <div class="content-wrapper">
                                 <h3 class="txt-blue is-style-h4">2. Ehrlich und transparent</h3>
                                 <p>Wir glauben an Ehrlichkeit, an Integrität und an den Respekt gegenüber unseren Kunden. Wir bieten Ihnen, passend zu Ihrem Budget, individuelle Lösungen für messbare Erfolge.</p>
@@ -237,14 +237,14 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="uk-width-1-2 img-wrapper">
+                        <div class="uk-width-1-2@m img-wrapper">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div uk-grid>
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-2@m">
                             <div class="content-wrapper">
                                 <h3 class="txt-blue is-style-h4">3. Wir wissen, was wir tun</h3>
                                 <p>Klingt selbstverständlich, ist es aber in vielen Fällen nicht: Als Webagentur in Oldenburg bestehen wir aus einem professionellen Team, das für digitales Marketing brennt und bestrebt darin ist, Sie mit echten Ergebnissen zu überzeugen.</p>
@@ -254,14 +254,14 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="uk-width-1-2 img-wrapper">
+                        <div class="uk-width-1-2@m img-wrapper">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div uk-grid>
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-2@m">
                             <div class="content-wrapper">
                                 <h3 class="txt-blue is-style-h4">4. Sie an erster Stelle</h3>
                                 <p>Für viele Agenturen ist eine kundenorientierte Ausrichtung eine Priorität und schmückt oft als wichtiger Verkaufspunkt ihre Webseiten, aber nur wenige ziehen diese Haltung auch durch. Wir versprechen Ihnen: Wir sind da mit über 10 Jahren Erfahrung und vielen namhaften Kunden anders.</p>
@@ -271,14 +271,14 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="uk-width-1-2 img-wrapper">
+                        <div class="uk-width-1-2@m img-wrapper">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div uk-grid>
-                        <div class="uk-width-1-2">
+                        <div class="uk-width-1-2@m">
                             <div class="content-wrapper">
                                 <h3 class="txt-blue is-style-h4">5. Großes Netzwerk, große Lösungen</h3>
                                 <p>Wir haben uns auf wichtige Leistungen spezialisiert, die viele Probleme lösen können. Sollten wir dennoch an unsere Grenzen stoßen, wissen wir an wen wir uns wenden können, um Ihnen eben doch den Service zu liefern, den Sie als unser Kunde wünschen.</p>
@@ -288,7 +288,7 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="uk-width-1-2 img-wrapper">
+                        <div class="uk-width-1-2@m img-wrapper">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
                         </div>
                     </div>
@@ -312,10 +312,10 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: linear-gradient(#3c3c40 0%, #2d2d2f 100%);">
                 <div class="alignwide">
                     <div uk-grid>
-                        <div class="img-wrapper uk-width-1-2">
+                        <div class="img-wrapper uk-width-1-2@m">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>
                         </div>
-                        <div class="col uk-width-1-2">
+                        <div class="col uk-width-1-2@m">
                             <div class="projekt-content-wrapper">
                                 <h3 class="is-style-h3 txt-white">Audioblock</h3>
                                 <p>Für den HiFi-Hersteller Audioblock haben wir einen Shop auf Basis von Shopware 6 umgesetzt. Weitere Highlights des Projekts sind die Fachhändlersuche und die zusätzlichen Versandarten "Click & Collect" und "Click & Deliver".</p>
@@ -329,10 +329,10 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: linear-gradient(#3c3c40 0%, #2d2d2f 100%);">
                 <div class="alignwide">
                     <div uk-grid>
-                        <div class="img-wrapper uk-width-1-2">
+                        <div class="img-wrapper uk-width-1-2@m">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>
                         </div>
-                        <div class="col uk-width-1-2">
+                        <div class="col uk-width-1-2@m">
                             <div class="projekt-content-wrapper">
                                 <h3 class="is-style-h3 txt-white">Audioblock 2</h3>
                                 <p>Für den HiFi-Hersteller Audioblock haben wir einen Shop auf Basis von Shopware 6 umgesetzt. Weitere Highlights des Projekts sind die Fachhändlersuche und die zusätzlichen Versandarten "Click & Collect" und "Click & Deliver".</p>

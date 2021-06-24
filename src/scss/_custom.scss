@@ -294,104 +294,76 @@ body, html {
   }
 }
 
-
-
-/*.two-col-ansprechpartner {
-  display: flex;
-  background: #fff;
-  .col {
-    width: 50%;
-
-    p {
-      &.adress {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-
-        strong {
-          font-size: 1.1em;
-          color: #000;
+/*** FOOTER SECTION CONTACT ***/
+#footer-section-contact{
+  .uk-grid{
+    >div{
+      &:first-child{
+        background-image: url('../../img/dennis-deux-footer.jpg');
+        background-size: cover;
+        background-position: right center;
+        position: relative;
+        .content-wrapper {
+          position: absolute;
+          top: 40%;
+          left: 10%;
+          max-width: 388px;
         }
-
-        span {
-          display: inline-block;
+      }
+      &:last-child{
+        padding: 7.5% 5%;
+        .space-dot{
           height: 8px;
           width: 8px;
           background: $w-color-primary;
-          margin: 0 15px;
+          display: inline-block;
+          margin: 0 10px 2px 10px;
         }
-      }
-    }
-
-    &.img-holder {
-      background-image: url('../../img/dennis-deux-footer.jpg');
-      background-size: cover;
-      background-position: right center;
-      position: relative;
-
-      .content-wrapper {
-        position: absolute;
-        top: 40%;
-        left: 10%;
-        max-width: 388px;
-
-
-      }
-    }
-
-    &:last-child {
-      padding: 7.5% 5%;
-
-      .wpcf7-list-item {
-        margin: 0;
-
-        label {
-          display: flex;
-          align-items: center;
-
-          .wpcf7-list-item-label {
-            font-size: .7em;
-            font-weight: normal;
-          }
-        }
-      }
-
-      .flex-wrapper {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 2%;
-        align-items: center;
-
-        span {
-          width: 100%;
-
-          input[type="text"],
-          input[type="tel"],
-          input[type="email"],
-          textarea {
-            display: block;
-            width: 100%;
-            background: $w-bg-color-light;
-            resize: none;
-            border: 0;
-          }
-        }
-
-        &.half {
-          span {
-            width: 49%;
-          }
+        .contact{
+          margin-bottom: 20px;
         }
       }
     }
   }
-}
+  span {
+    width: 100%;
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea{
+      display: block;
+      width: 100%;
+      resize: none;
+    }
+  }
+  .flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    align-items: center;
+    &.half {
+      span {
+        width: 49%;
+      }
+    }
+  }
+  .acceptance-307 {
+    width: 100% !important;
+    .wpcf7-list-item {
+      margin: 0;
+      width: 100% !important;
+      label {
+        display: flex;
+        align-items: center;
 
-.wpcf7-not-valid-tip {
-  display: none !important;
+        .wpcf7-list-item-label {
+          font-size: .7em;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .ajax-loader{
+    display: none !important;
+  }
 }
-
-.wpcf7-not-valid {
-  background: #f5595930 !important;
-}
-*/
