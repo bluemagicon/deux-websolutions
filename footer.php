@@ -30,7 +30,7 @@ $page_support	= $override_support ?: $global_support;
 
 <div id="footer-section-contact">
     <div uk-grid>
-        <div class="uk-width-1-2">
+        <div class="uk-width-1-2@m">
             <div class="content-wrapper">
                 <strong class="subheadline">Jetzt Kontakt aufnehmen</strong>
                 <h2 class="is-style-h2">Was dürfen wir für Sie tun?</h2>
@@ -47,12 +47,12 @@ $page_support	= $override_support ?: $global_support;
             </div>
         </div>
 
-        <div class="uk-width-1-2">
-            <p class="adress"><strong>deux websolutions</strong> <span class="space-dot"></span> Im Kleigrund 5a, 26135 Oldenburg</p>
-            <div class="contact">
+        <div class="uk-width-1-2@m">
+            <p class="adress"><strong>Deux Websolutions GmbH</strong> <span class="space-dot"> </span> Im Kleigrund 5a, 26135 Oldenburg</p>
+            <p class="contact">
                 <a href="mailto:info@deux.de">info@deux.de</a>
                 <a href="tel:+4944193658002">0441 936 580 02</a>
-            </div>
+            </p>
             <?php echo do_shortcode('[contact-form-7 id="229" title="Kontaktformular Ansprechpartner"]'); ?>
         </div>
 
@@ -85,11 +85,6 @@ $page_support	= $override_support ?: $global_support;
 include 'tpl/partials/offcanvas.php';
 wp_footer() ;
 ?>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
 
 </body>
 </html>
