@@ -28,31 +28,40 @@ $page_support	= $override_support ?: $global_support;
 // ----------------------------------------------------------------------
 ?>
 
-<div class="two-col-ansprechpartner" id="ansprechpartner">
-    <div class="col img-holder">
-        <div class="content-wrapper">
-            <h2 class="is-style-h2-subheadline"><em>Jetzt Kontakt aufnehmen</em>was dürfen wir für sie tun?</h2>
-            <div class="card">
-                <div class="logo-wrapper">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/deux-websolutions-icon.svg" alt="" />
-                </div>
-                <p>dennis deux. <span>Geschäftsführung</span></p>
-                <div class="contact">
-                    <a href="mailto:info@deux.de">dennis@deux.de</a>
-                    <a href="tel:+4944193658002">0441 936 580 02</a>
+<div id="footer-section-contact">
+    <div uk-grid>
+        <div class="uk-width-1-2">
+            <div class="content-wrapper">
+                <strong class="subheadline">Jetzt Kontakt aufnehmen</strong>
+                <h2 class="is-style-h2">Was dürfen wir für Sie tun?</h2>
+                <div class="vcard">
+                    <div class="logo-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/deux-websolutions-icon.svg" alt="" />
+                    </div>
+                    <p>Dennis Deux. <span>Geschäftsführung</span></p>
+                    <div class="contact">
+                        <a href="mailto:info@deux.de">dennis@deux.de</a>
+                        <a href="tel:+4944193658002">0441 936 580 02</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col">
-        <p class="adress"><strong>Deux Websolutions GmbH</strong> <span class="space-dot"></span> Im Kleigrund 5a, 26135 Oldenburg</p>
-        <div class="contact">
-            <a href="mailto:info@deux.de">info@deux.de</a>
-            <a href="tel:+4944193658002">0441 936 580 02</a>
+
+        <div class="uk-width-1-2">
+            <p class="adress"><strong>deux websolutions</strong> <span class="space-dot"></span> Im Kleigrund 5a, 26135 Oldenburg</p>
+            <div class="contact">
+                <a href="mailto:info@deux.de">info@deux.de</a>
+                <a href="tel:+4944193658002">0441 936 580 02</a>
+            </div>
+            <?php echo do_shortcode('[contact-form-7 id="229" title="Kontaktformular Ansprechpartner"]'); ?>
         </div>
-        <?php echo do_shortcode('[contact-form-7 id="229" title="Kontaktformular Ansprechpartner"]'); ?>
+
     </div>
+
+
 </div>
+
+
 <footer id="footer">
 	<div class="alignwide">
         <div class="flex-wrapper">
@@ -76,9 +85,11 @@ $page_support	= $override_support ?: $global_support;
 include 'tpl/partials/offcanvas.php';
 wp_footer() ;
 ?>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
+
 </body>
 </html>

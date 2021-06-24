@@ -71,3 +71,57 @@
         }
     }
 }
+
+
+/*** CUSTOM ***/
+#footer {
+    padding: 75px 0;
+
+    .flex-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .col {
+            &.logo-wrapper {
+                width: 218px;
+            }
+
+            &.socials {
+                a {
+                    display: block;
+
+                    svg {
+                        display: block;
+                        height: 30px;
+                        width: 30px;
+                        color: #bfbfc8;
+                    }
+                }
+            }
+
+            &:last-child {
+                ul {
+                    display: flex;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        a {
+                            font-size: 0.7em;
+                            margin-right: 22px;
+                            color: #bfbfc8;
+                        }
+
+                        &:last-child {
+                            a {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

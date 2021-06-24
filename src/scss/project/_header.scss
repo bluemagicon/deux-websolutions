@@ -134,3 +134,51 @@
         }
     }
 }
+
+/*** CUSTOM ***/
+#header{
+    padding: 25px 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1920px;
+    width: 100%;
+    .alignwide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo-wrapper{
+        svg{
+            width: 300px;
+        }
+
+    }
+    .contact{
+        margin-bottom: 0;
+    }
+    .mainnav-wrapper ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            a{
+                display: block;
+                padding: 0 15px;
+                font-weight: 700;
+                color: #000000;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+            &.current-menu-item{
+                a{
+                    color: $w-color-primary;
+                }
+            }
+        }
+    }
+}

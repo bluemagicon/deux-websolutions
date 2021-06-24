@@ -1,0 +1,36 @@
+.img-wrapper.animated{
+  position: relative;
+  img{
+    position: relative;
+    z-index: 9;
+  }
+}
+.img-wrapper.animated:after{
+  content: '';
+  display: block;
+  background: $w-color-secondary;
+  background: linear-gradient(135deg, rgba(0,71,142,1) 0%, rgba(35,141,213,1) 100%);
+  animation: morph 6s infinite ease-in-out;
+  border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
+  height: 105%;
+  transition: all 1s;
+  width: 105%;
+  position: absolute;
+  top: -2.5%;
+  left: -2.5%;
+}
+
+
+@keyframes morph {
+  0% {
+    border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
+  }
+
+  50% {
+    border-radius: 51% 49% 52% 48% / 25% 61% 39% 75%;
+  }
+
+  100% {
+    border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
+  }
+}

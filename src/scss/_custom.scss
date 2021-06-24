@@ -1,452 +1,285 @@
 /*** GLOBAL ***/
-body{
+body, html {
   max-width: 1920px;
-}
-
-/*** HEADER ***/
-#header{
-  padding: 25px 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .contact{
-    margin-bottom: 0;
-  }
-  .mainnav-wrapper ul{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li{
-      a{
-        display: block;
-        padding: 0 15px;
-        font-weight: 700;
-        color: #000000;
-
-        &:last-child {
-          padding-right: 0;
-        }
-      }
-      &.current-menu-item{
-        a{
-          color: $w-color-primary;
-        }
-      }
-    }
-  }
-}
-/*** HEADLINES ***/
-.is-style-h1-featured em,
-.is-style-h1-featured-overflow em{
-  font-style: normal;
-}
-.is-style-h1-featured-overflow{
-  white-space: nowrap;
-  display: block;
-  position: relative;
-  z-index: 2;
-}
-.is-style-h2{
-  margin-bottom: 2rem !important;
-}
-.is-style-h2-subheadline{
-  em{
-    display: block;
-    font-weight: normal;
-    font-size: 0.42em;
-    letter-spacing: 2px;
-    font-style: normal;
-    text-transform: uppercase;
-  }
-}
-.button-primary{
-  background: #000000;
-  font-weight: 700;
-  color: #fff !important;
-  padding: 18px 20px 18px 20px;
-  display: inline-flex;
-  align-items: center;
-  position: relative;
-  background: linear-gradient(to left, #000000 50%, $w-color-primary 50%) right;
-  background-size: calc(200% - 10px);
-  transition: .3s ease-in-out;
-  text-align: left;
-  width: auto !important;
-
-  &.without-arrow{
-    &::after{
-      display: none;
-    }
-  }
-
-  &::after{
-    content: '';
-    flex-shrink: 0;
-    display: block;
-    height: 12px;
-    width: 12px;
-    margin-left: 20px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('../../img/arrow-right-white.svg');
-  }
-  &.blue{
-    background: linear-gradient(to left, #000000 50%, $w-color-secondary 50%) right;
-    background-size: calc(200% - 10px);
-  }
-  &.purple{
-    background: linear-gradient(to left, #000000 50%, $w-color-tertiary 50%) right;
-    background-size: calc(200% - 10px);
-  }
-  &:hover{
-    background-position: left;
-    background-size: 200%;
-  }
-}
-.slick-arrow-own{
-  cursor: pointer;
-  display: block;
-  width: 64px;
-  min-height: 64px;
-  background-position: center;
-  background-size: 35% auto;
-  background-repeat: no-repeat;
-  background-image: url('../../img/slick-arrow-right.svg');
-  transition: all .3s;
-  margin-right: 10px;
-
-  &:hover{
-    filter: brightness(0.8);
-  }
-  &.red{
-    background-color: $w-color-primary;
-  }
-  &.blue{
-    background-color: $w-color-secondary;
-  }
-  &.slick-arrow-prev{
-    transform: rotate(180deg);
-  }
-}
-.slider-button-wrapper{
-  display: flex;
-  .button-primary{
-    margin: 0 10px;
-  }
-}
-
-/*** STARTSEITE ***/
-.page-template-page_startseite{
   background-color: $w-bg-color-light;
+}
 
-  ul.triangle-list{
-    padding: 0;
-    list-style: none;
-    li{
-      background-image: url('../../img/list-style-blue.svg');
-      background-repeat: no-repeat;
-      background-size: 7px auto;
-      background-position: top 8px left;
-      padding-left: 20px;
-      font-weight: 700;
-    }
-  }
+.img-wrapper {
+  display: block;
 
-  .img-wrapper{
+  img {
     display: block;
-    img{
-      display: block;
-      width: 100%;
-    }
-  }
-
-  /*** HEADER ***/
-  #header{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 1920px;
     width: 100%;
   }
+}
 
-  /*** HEADLINES & BUTTONS ***/
-  h1,
-  .is-style-h1{
-    color: #000;
-  }
-  h2,
-  .is-style-h2{
-    color: #000;
-    &.blue {
-      color: $w-color-secondary;
+/*** HOME: HERO ***/
+#home-section-hero {
+  background-image: url('../../img/bg-first-section.svg');
+  background-size: auto 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  /*padding: 150px 0 14.32vw 0;*/
+  padding: 150px 0 0 0;
+
+  .hero-img {
+    position: relative;
+
+    img {
+      position: relative;
+      z-index: 1;
     }
-  }
-  h3.blue{
-    color: $w-color-secondary;
-  }
-  .is-style-h1-featured-overflow em{
-    color: $w-color-primary;
-  }
-  .is-style-h2-subheadline em{
-    color: $w-color-primary;
-  }
-  a.button-plain{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 0.8em;
-    font-weight: 700;
-    &::after{
+
+    &:after {
       content: '';
       display: block;
-      height: 10px;
-      width: 10px;
-      background-image: url('../../img/arrow-right.svg');
+      position: absolute;
+      height: 126%;
+      width: 135%;
+      background-image: url(../../img/form-red.svg);
       background-size: contain;
       background-repeat: no-repeat;
-      margin-left: 20px;
+      top: 5%;
+      left: -3%;
+      animation: float 6s ease-in-out infinite;
+    }
+  }
+}
+
+
+/*** HOME: ZITAT ***/
+#home-section-zitat {
+  margin-top: 20rem;
+
+  .is-style-h1 {
+    position: relative;
+
+    &:after {
+      content: "“";
+      position: absolute;
+      right: 0;
+      top: -6rem;
+      font-size: 7rem;
     }
   }
 
-  /*** TWO-COL ***/
-  .two-col-wrapper{
-    .flex-wrapper{
-      display: flex;
-      justify-content: space-between;
-      .col{
-        width: 45%;
-        position: relative;
-        &:last-child{
-          width: 50%;
-        }
-        &.align-right{
-          text-align: right;
-        }
-        &.img-wrapper.animated::after{
-          content: '';
-          display: block;
-          background: $w-color-secondary;
-          animation: morph 8s infinite ease-in-out;
-          border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
-          height: 105%;
-          transition: all 1s;
-          width: 105%;
-          position: absolute;
-          top: -2.5%;
-          left: -2.5%;
-        }
-        p{
-          font-size: 1.2em;
-          &.zitat{
-            color: #000;
-            em{
-              font-size: 0.7em;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-              font-style: normal;
-            }
-          }
-        }
-        img{
-          position: relative;
-          z-index: 1;
-        }
-      }
-    }
-    &.hero-main{
-      background-image: url('../../img/bg-first-section.svg');
-      background-size: auto 100%;
-      background-position: left top;
-      background-repeat: no-repeat;
-      padding: 150px 0 14.32vw 0;
-      .col.img-wrapper{
-        width: 45%;
-        &:after{
-          content: '';
-          display: block;
-          position: absolute;
-          height: 130%;
-          width: 130%;
-          background-image: url('../../img/form-red.svg');
-          background-size: contain;
-          background-repeat: no-repeat;
-          top: 5%;
-          left: -15%;
-        }
-      }
-    }
-    &.col-margin-top{
-      .col:first-child{
-        margin-top: 10%;
-      }
-    }
-    &.reversed{
-      .flex-wrapper{
-        flex-direction: row-reverse;
-      }
-    }
-    &.align-center{
-      .flex-wrapper{
-        align-items: center;
-      }
-    }
-    &.kunden-logos{
-      padding: 17vw 0 31.25vw 0;
-      background-image: url('../../img/kunden-logos-bg.svg');
-      background-position: right center;
-      background-repeat: no-repeat;
-      background-size: auto 100%;
-      .kunden-logos-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        .logo{
-          width: 18%;
-          margin-right: 9.3%;
-          margin-bottom: 9.3%;
-          img{
-            max-height: 75px;
-          }
-          &:nth-child(4n){
-            margin-right: 0;
-          }
-          &:nth-last-child(1),
-          &:nth-last-child(2),
-          &:nth-last-child(3),
-          &:nth-last-child(4){
-            margin-bottom: 0;
-          }
-        }
-      }
-    }
-    &.messbare-ergebnisse{
-      padding: 75px 0;
-    }
-    &.warum-deux{
-      background-image: url('../../img/bg-warum-deux.svg');
-      background-repeat: no-repeat;
-      background-position: right center;
-      background-size: auto 100%;
-      padding: 62.5vw 0 26.04vw 0;
-      margin-top: -52.08vw;
-      .alignwide{
-        position: relative;
-        &::before{
-          content: '';
-          display: block;
-          background: $w-color-secondary;
-          animation: morph 8s infinite ease-in-out;
-          border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
-          height: 100%;
-          transition: all 1s;
-          width: 50%;
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-      }
-    }
-    &.leistungen{
-      margin-top: -7.81vw;
-      padding: 5.2vw 0;
-      .col:last-child{
-        display: flex;
-        justify-content: space-between;
-        .sub-col{
-          width: 49%;
-          &:first-child{
-            margin-top: -100px;
-          }
-          .teaser{
-            background-color: #353583;
-            background-image: url('../../img/teaser-bg.jpg');
-            background-size: 100% auto;
-            background-position: bottom center;
-            background-repeat: no-repeat;
-            margin-bottom: 4%;
-            padding: 30px;
-            .img-wrapper{
-              margin: 0 auto 25px auto;
-              max-width: 80%;
-              img{
-                max-height: 175px;
-              }
-            }
-            .content-wrapper{
-              strong{
-                font-size: 1.5em;
-                color: #fff;
-                line-height: 1.2;
-              }
-              p{
-                font-size: 0.8em;
-                color: #fff;
-                margin-bottom: 25px;
-              }
-            }
-          }
-        }
-      }
-    }
+}
+
+/*** HOME: KUNDEN ***/
+#home-section-kunden {
+  background-image: url('../../img/kunden-logos-bg.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding: 17vw 0 31.25vw 0;
+
+  .content-wrapper {
+    padding-right: 50px;
   }
-  .projekte-slider-wrapper{
-    margin-top: -100px;
-    .flex-wrapper{
-      display: flex;
-      justify-content: space-between;
-      &.intro{
-        align-items: flex-end;
-        margin-bottom: 75px;
-        .col:first-child{
-          width: 45%;
-        }
+
+  .kundenlogos {
+    .logo {
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      img {
+        max-height: 75px;
       }
-      &.slider-inner{
-        padding: 100px 0;
-        max-width: calc(960px + (2 * 7rem));
-        margin: 0 auto;
-        align-items: center;
-        .col{
-          width: 55%;
-          &:last-child{
-            width: 40%;
-            background: rgba(0,0,0,0.4);
-            padding: 35px;
-            color: #fff;
-          }
-        }
+    }
+
+  }
+}
+
+/*** HOME: LEISTUNGEN ***/
+#home-section-leistungen {
+  .teaser {
+    background-color: #353583;
+    background-image: url('../../img/teaser-bg.jpg');
+    background-size: 100% auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 0 0 30px 0;
+
+    &.first-child {
+      margin-top: -100px;
+    }
+
+    .img-wrapper {
+      margin: 0 auto 25px auto;
+      max-width: 80%;
+
+      img {
+        max-height: 175px;
+      }
+    }
+
+    .content-wrapper {
+      strong {
+        font-size: 1.5em;
+        color: #fff;
+        line-height: 1.2;
+      }
+
+      p {
+        font-size: 0.8em;
+        color: #fff;
+        margin-bottom: 25px;
       }
     }
   }
 }
-@keyframes morph {
-  0% {
-    border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
-  }
 
-  50% {
-    border-radius: 51% 49% 52% 48% / 25% 61% 39% 75%;
-  }
+/*** HOME: WARUM DEUX ? ***/
+#home-section-warum-deux {
+  background-image: url('../../img/bg-warum-deux.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+  padding: 62.5vw 0 26.04vw 0;
+  margin-top: -52.08vw;
 
-  100% {
-    border-radius: 75% 25% 75% 25% / 25% 75% 25% 75%;
+  .content-wrapper {
+    padding: 50px 50px 0 0;
   }
 }
-.contact{
-  margin-bottom: 2rem;
+
+/*** PROJEKTE ***/
+#home-section-projekte {
+  .slick-dots {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-right: 6px;
+      display: flex;
+      align-items: center;
+
+      &::marker {
+        content: "";
+        display: none;
+      }
+
+      button {
+        text-indent: -20000em;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #fff;
+      }
+
+      &.slick-active {
+        button {
+          background: $w-color-primary;
+          width: 14px;
+          height: 14px;
+        }
+      }
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    color: #fff;
+    z-index: 1;
+    background-image: url(../../img/slider-arrow-right-white.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-indent: -20000em;
+    display: block;
+    width: 40px;
+    height: 40px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &.slick-prev {
+      background-image: url(../../img/slider-arrow-left-white.svg);
+      left: 16px;
+    }
+  }
+}
+
+
+/*** TWO-COL ***/
+/*.two-col-wrapper {
+  .flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .col {
+      width: 45%;
+      position: relative;
+
+      &:last-child {
+        width: 50%;
+      }
+    }
+  }
+}*/
+
+
+/*** PROJEKT-SLIDER ***/
+#home-section-projekte {
+  .projekt-content-wrapper {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 35px;
+    color: #fff;
+  }
+  .slick-slide {
+    padding: 100px 0;
+  }
+}
+
+
+/*** V-Card ***/
+.vcard {
+  background: #fff;
+  display: inline-block;
+  padding: 25px;
+  box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.05);
+
+  .logo-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  p {
+    font-weight: 700;
+    color: #000;
+    font-size: 1.1em;
+    span {
+      display: block;
+      font-weight: normal;
+      color: #6C6C79;
+      font-size: 0.7em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+/*** E-MAIL & PHONE ***/
+.contact {
+  margin-bottom: 0;
   display: flex;
-  a{
+  a {
     color: #000;
     display: flex;
     align-items: center;
     margin-right: 30px;
     font-size: 0.88em;
-    &:last-child{
+    &:last-child {
       margin-right: 0;
     }
-    &::before{
+    &::before {
       content: '';
       display: block;
       height: 20px;
@@ -455,26 +288,32 @@ body{
       background-size: contain;
       margin-right: 5px;
     }
-    &:last-child::before{
+    &:last-child::before {
       background-image: url('../../img/phone-line.svg');
     }
   }
 }
-.two-col-ansprechpartner{
+
+
+
+/*.two-col-ansprechpartner {
   display: flex;
   background: #fff;
-  .col{
+  .col {
     width: 50%;
-    p{
-      &.adress{
+
+    p {
+      &.adress {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        strong{
+
+        strong {
           font-size: 1.1em;
           color: #000;
         }
-        span{
+
+        span {
           display: inline-block;
           height: 8px;
           width: 8px;
@@ -483,6 +322,7 @@ body{
         }
       }
     }
+
     &.img-holder {
       background-image: url('../../img/dennis-deux-footer.jpg');
       background-size: cover;
@@ -494,61 +334,41 @@ body{
         top: 40%;
         left: 10%;
         max-width: 388px;
-        .card {
-          background: #fff;
-          display: inline-block;
-          padding: 25px;
-          box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.05);
-          .contact{
-            margin-bottom: 0;
-          }
 
-          .logo-wrapper {
-            display: flex;
-            justify-content: flex-end;
-          }
 
-          p {
-            font-weight: 700;
-            color: #000;
-            font-size: 1.1em;
-
-            span {
-              display: block;
-              font-weight: normal;
-              color: #6C6C79;
-              font-size: 0.7em;
-              text-transform: uppercase;
-              letter-spacing: 2px;
-            }
-          }
-        }
       }
     }
-    &:last-child{
+
+    &:last-child {
       padding: 7.5% 5%;
-      .wpcf7-list-item{
+
+      .wpcf7-list-item {
         margin: 0;
-        label{
+
+        label {
           display: flex;
           align-items: center;
-          .wpcf7-list-item-label{
+
+          .wpcf7-list-item-label {
             font-size: .7em;
             font-weight: normal;
           }
         }
       }
-      .flex-wrapper{
+
+      .flex-wrapper {
         display: flex;
         justify-content: space-between;
         margin-bottom: 2%;
         align-items: center;
-        span{
+
+        span {
           width: 100%;
+
           input[type="text"],
           input[type="tel"],
           input[type="email"],
-          textarea{
+          textarea {
             display: block;
             width: 100%;
             background: $w-bg-color-light;
@@ -556,8 +376,9 @@ body{
             border: 0;
           }
         }
-        &.half{
-          span{
+
+        &.half {
+          span {
             width: 49%;
           }
         }
@@ -565,289 +386,12 @@ body{
     }
   }
 }
-.wpcf7 .ajax-loader{
+
+.wpcf7-not-valid-tip {
   display: none !important;
 }
-#footer{
-  padding: 75px 0;
-  .flex-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .col{
-      &.logo-wrapper{
-        width: 218px;
-      }
-      &.socials{
-        a{
-          display: block;
-          svg{
-            display: block;
-            height: 30px;
-            width: 30px;
-            color: #bfbfc8;
-          }
-        }
-      }
-      &:last-child{
-        ul{
-          display: flex;
-          list-style: none;
-          padding: 0;
-          margin: 0;
-          li{
-            a{
-              font-size: 0.7em;
-              margin-right: 22px;
-              color: #bfbfc8;
-            }
-            &:last-child{
-              a{
-                margin-right: 0;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-.wpcf7-not-valid-tip{
-  display: none !important;
-}
-.wpcf7-not-valid{
+
+.wpcf7-not-valid {
   background: #f5595930 !important;
 }
-
-@media(max-width:1200px){
-  .page-template-page_startseite{
-    .is-style-h1, .w-h1, h1{
-      font-size: 2em;
-    }
-    .is-style-h2, .w-h2, h2{
-      font-size: 1.8em;
-    }
-    .two-col-wrapper.leistungen .col:last-child .sub-col .teaser .content-wrapper strong{
-      font-size: 1.2em;
-    }
-    .two-col-wrapper.leistungen .col:last-child .sub-col .teaser{
-      padding: 20px;
-    }
-  }
-}
-
-@media(max-width: 992px) {
-  .page-template-page_startseite {
-    .is-style-h1-featured-overflow{
-      white-space: inherit;
-    }
-    .two-col-wrapper.leistungen{
-      .flex-wrapper{
-        flex-direction: column;
-        .col{
-          width: 100% !important;
-          &:first-child{
-            margin-bottom: 30px;
-          }
-          .sub-col{
-            margin: 0 !important;
-          }
-        }
-      }
-    }
-    .two-col-wrapper.kunden-logos{
-      padding: 13.02vw 0 25.25vw 0;
-    }
-  }
-  .two-col-ansprechpartner .col.img-holder .content-wrapper{
-    top: inherit;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    .card{
-      width: 100%;
-      max-width: 100%;
-      padding: 15px;
-      .logo-wrapper{
-        justify-content: center;
-      }
-      .contact{
-        justify-content: center;
-      }
-    }
-  }
-}
-@media(max-width: 768px){
-  .page-template-page_startseite {
-    .two-col-wrapper {
-      &.col-margin-top{
-        .col{
-          margin-top: 0 !important;
-        }
-      }
-      .flex-wrapper{
-        flex-direction: column !important;
-        align-items: center !important;
-      }
-      .col{
-        width: 100% !important;
-        &.img-wrapper{
-          width: 90% !important;
-        }
-        &.align-right{
-          text-align: left !important;
-        }
-        &:first-child{
-          margin-bottom: 25px;
-        }
-      }
-      &.hero-main{
-        padding: 85px 0 50px 0;
-        .col{
-          &.img-wrapper{
-            &::after{
-              height: 110%;
-              width: 110%;
-              left: -5%;
-              top: 0;
-            }
-          }
-        }
-      }
-    }
-    .projekte-slider-wrapper .flex-wrapper.intro{
-      flex-direction: column;
-      .col{
-        width: 100% !important;
-      }
-    }
-    .projekte-slider-wrapper .flex-wrapper.slider-inner{
-      flex-direction: column;
-      max-width: inherit;
-      width: 100%;
-      padding: 30px 0 0 0;
-      .col{
-        &.img-wrapper{
-          padding: 0 5%;
-          margin-bottom: 25px;
-        }
-        width: 100% !important;
-      }
-    }
-  }
-  .two-col-ansprechpartner{
-    flex-direction: column;
-    .col{
-      width: 100%;
-      &.img-holder{
-        height: 400px;
-        background-position: top right;
-        .content-wrapper{
-          top: 10%;
-          bottom: inherit;
-          left: 10px;
-          max-width: 325px;
-          text-align: left;
-          .card{
-            .logo-wrapper{
-              justify-content: flex-end;
-            }
-          }
-        }
-      }
-    }
-  }
-  #header{
-    .logo-wrapper{
-      width: 165px;
-    }
-    .contact{
-      a{
-        font-size: 0px;
-        margin-right: 15px;
-        &:last-child{
-          margin-righ: 0;
-        }
-        &::before{
-          margin-right: 0;
-          height: 30px;
-          width: 30px;
-        }
-      }
-    }
-  }
-  #footer{
-    padding: 30px 0;
-    .flex-wrapper{
-      flex-direction: column;
-      .col{
-        &:nth-child(1){
-          order: 3;
-          display: none;
-        }
-        &:nth-child(2){
-          order: 1;
-        }
-        &:nth-child(3){
-          order: 2;
-        }
-      }
-    }
-  }
-  .warum-deux{
-    .alignwide{
-      &::before{
-        bottom: 0 !important;
-        top: inherit !important;
-        height: 50% !important;
-        width: 100% !important;
-      }
-    }
-  }
-}
-@media(max-width: 576px){
-  .page-template-page_startseite .two-col-wrapper.messbare-ergebnisse,
-  .page-template-page_startseite .two-col-wrapper.kunden-logos,
-  .page-template-page_startseite .two-col-wrapper.warum-deux,
-  .page-template-page_startseite .two-col-wrapper.leistungen{
-    padding: 30px 0;
-  }
-  .page-template-page_startseite .two-col-wrapper.leistungen .col:last-child{
-    flex-wrap: wrap;
-    .sub-col{
-      width: 100%;
-    }
-  }
-  .page-template-page_startseite .two-col-wrapper.warum-deux,
-  .page-template-page_startseite .projekte-slider-wrapper,
-  .page-template-page_startseite .two-col-wrapper.leistungen{
-    margin-top: 0;
-  }
-  .page-template-page_startseite .projekte-slider-wrapper .flex-wrapper.intro{
-    margin-bottom: 30px;
-  }
-  .page-template-page_startseite .projekte-slider-wrapper .flex-wrapper.slider-inner .col:last-child{
-    padding: 20px;
-  }
-  .two-col-ansprechpartner .col.img-holder .content-wrapper{
-    max-width: 202px;
-    top: inherit;
-    bottom: 0;
-    .card .contact {
-      display: block;
-      a {
-        margin-bottom: 10px;
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-    }
-  }
-  .two-col-ansprechpartner .col:last-child .flex-wrapper.last{
-    display: block;
-    .wpcf7-form-control-wrap{
-      margin: 15px 0;
-      display: block;
-    }
-  }
-}
+*/

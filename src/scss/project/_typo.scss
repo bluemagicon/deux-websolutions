@@ -1,0 +1,56 @@
+
+/*** FONT-COLOR ***/
+.txt-blue{
+  color: $w-color-secondary;
+}
+.txt-white{
+  color: #fff;
+}
+
+/*** HEADLINE 1 ***/
+.is-style-h1-featured em,
+.is-style-h1-featured-overflow em{
+  font-style: normal;
+}
+.is-style-h1-featured-overflow{
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+/*** HEADLINE 2 ***/
+.is-style-h2{
+  margin-bottom: 2rem !important;
+}
+
+
+
+/*** SUBHEADLINE ***/
+.subheadline{
+  display: block;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  font-style: normal;
+  text-transform: uppercase;
+  color: $w-color-primary;
+  font-weight: 800;
+  margin-bottom: -0.8rem;
+}
+
+/*** CONTENT-LISTE ***/
+ul.content-list{
+  padding: 0;
+  list-style: none;
+  li{
+    background-image: url('../../img/list-style-blue.svg');
+    background-repeat: no-repeat;
+    background-size: 7px auto;
+    background-position: top 8px left;
+    padding-left: 20px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+

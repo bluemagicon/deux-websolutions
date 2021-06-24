@@ -61,17 +61,19 @@ $page_header	= $override_header ?: $global_header;
 <body <?php body_class('w-body'); ?>>
 
     <header id="header">
-        <div class="logo-wrapper">
-            <?php include_once 'tpl/partials/logo-function.php'; ?>
-            <?php include 'tpl/partials/logo.php'; ?>
+        <div class="alignwide">
+            <div class="logo-wrapper">
+                <?php include_once 'tpl/partials/logo-function.php'; ?>
+                <?php include 'tpl/partials/logo.php'; ?>
+            </div>
+            <div class="contact">
+                <a href="mailto:info@deux.de">info@deux.de</a>
+                <a href="tel:+4944193658002">0441 936 580 02</a>
+            </div>
+            <!--
+            <div class="mainnav-wrapper">
+                <?php echo wp_nav_menu(array('menu' => 'Hauptmenü')); ?>
+            </div>
+            -->
         </div>
-        <div class="contact">
-            <a href="mailto:info@deux.de">dennis@deux.de</a>
-            <a href="tel:+4944193658002">0441 936 580 02</a>
-        </div>
-        <!--
-        <div class="mainnav-wrapper">
-            <?php echo wp_nav_menu(array('menu' => 'Hauptmenü')); ?>
-        </div>
-        -->
     </header>
