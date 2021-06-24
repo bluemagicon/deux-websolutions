@@ -41,11 +41,10 @@ body, html {
       background-repeat: no-repeat;
       top: 5%;
       left: -3%;
-      animation: float 6s ease-in-out infinite;
+      /*animation: float 6s ease-in-out infinite;*/
     }
   }
 }
-
 
 /*** HOME: ZITAT ***/
 #home-section-zitat {
@@ -79,9 +78,7 @@ body, html {
 
   .kundenlogos {
     .logo {
-      padding-top: 30px;
-      padding-bottom: 30px;
-
+      padding: 50px;
       img {
         max-height: 75px;
       }

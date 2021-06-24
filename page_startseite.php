@@ -8,13 +8,15 @@ get_header();
     <!-- SECTION HERO -->
     <div id="home-section-hero" class="">
         <div class="alignwide">
-            <div uk-grid>
+            <div uk-grid class="uk-grid-large">
                 <div class="uk-width-1-2 uk-margin-auto-vertical">
-                    <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
-                    <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> messbare Ergebnisse.
-                    </h3>
-                    <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen. Unsere Mission ist die Umsetzung von kreativen Online-Marketing-Maßnahmen, damit Sie maximale Ergebnisse für Ihr Werbebudget verzeichnen können.</p>
-                    <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                    <div class="">
+                        <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
+                        <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> messbare Ergebnisse.
+                        </h3>
+                        <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Unsere Mission ist die Umsetzung von kreativen Online-Marketing-Maßnahmen, damit Sie maximale Ergebnisse für Ihr Werbebudget verzeichnen können.</p>
+                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                    </div>
                 </div>
                 <div class="uk-width-1-2 img-wrapper hero-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/hero-main-img.png" alt=""/>
@@ -26,9 +28,11 @@ get_header();
     <!-- SECTION: ZITAT -->
     <div id="home-section-zitat">
         <div class="alignwide">
-            <div uk-grid>
-                <div class="img-wrapper animated uk-width-1-2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
+            <div uk-grid class="uk-grid-large">
+                <div class="uk-width-1-2">
+                    <div class="img-wrapper animated">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
+                    </div>
                 </div>
                 <div class="uk-width-1-2 uk-margin-auto-vertical uk-text-right">
                     <h2 class="is-style-h1 txt-blue">Unser Antrieb sind messbare Ergebnisse</h2>
@@ -42,14 +46,14 @@ get_header();
     <div id="home-section-kunden">
         <div class="alignwide">
             <div uk-grid>
-                <div class="uk-width-1-2 content-wrapper">
+                <div class="uk-width-2-5 content-wrapper">
                     <strong class="subheadline">Für wen wir arbeiten</strong>
                     <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
                     <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus den verschiedensten Branchen. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise mit dem ständigen Ziel Großartiges für Sie zu leisten.</p>
-                    <p>Unsere Kommunikationsweise versteht sich menschlich und verständlich, weil wir uns ungerne in Fachtermini verlieren und Ihnen in erster Linie zuhören. Auf diese Weise hören wir oft unentdeckte Potenziale heraus und begegnen diesen mit kreativen Lösungen.</p>
+                    <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
                 </div>
-                <div class="uk-width-1-2">
-                    <div uk-grid class="kundenlogos uk-grid-large">
+                <div class="uk-width-3-5">
+                    <div uk-grid class="kundenlogos">
                         <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-logo.svg" alt="Audioblock"/>
                         </div>
