@@ -8,12 +8,12 @@ get_header();
     <!-- SECTION HERO -->
     <div id="home-section-hero" class="">
         <div class="alignwide">
-            <div uk-grid>
+            <div uk-grid class="uk-grid-large">
                 <div class="uk-width-1-2@m uk-margin-auto-vertical">
                     <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
                     <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> messbare Ergebnisse.
                     </h3>
-                    <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen. Unsere Mission ist die Umsetzung von kreativen Online-Marketing-Maßnahmen, damit Sie maximale Ergebnisse für Ihr Werbebudget verzeichnen können.</p>
+                    <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>
                     <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
                 </div>
                 <div class="uk-width-1-2@m img-wrapper hero-img">
@@ -26,7 +26,7 @@ get_header();
     <!-- SECTION: ZITAT -->
     <div id="home-section-zitat">
         <div class="alignwide">
-            <div uk-grid>
+            <div uk-grid class="uk-grid-large">
                 <div class="img-wrapper animated uk-width-1-2@m">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
                 </div>
@@ -41,7 +41,7 @@ get_header();
     <!-- SECTION KUNDEN -->
     <div id="home-section-kunden">
         <div class="alignwide">
-            <div uk-grid>
+            <div uk-grid class="uk-grid-large">
                 <div class="uk-width-1-2@m content-wrapper">
                     <strong class="subheadline">Für wen wir arbeiten</strong>
                     <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
@@ -108,7 +108,7 @@ get_header();
     <div id="home-section-leistungen">
         <div class="alignwide">
 
-            <div uk-grid>
+            <div uk-grid class="uk-grid-large">
                 <div class="uk-width-1-2@l">
                     <div uk-sticky="offset: 100; bottom: true">
                         <strong class="subheadline">Was wir anbieten</strong>

@@ -1,7 +1,10 @@
 /*** GLOBAL ***/
-body, html {
-  max-width: 1920px;
+body {
   background-color: $w-bg-color-light;
+  overflow: visibile;
+}
+html{
+
 }
 
 .img-wrapper {
@@ -78,12 +81,11 @@ body, html {
 
   .kundenlogos {
     .logo {
-      padding: 50px;
+      padding: 2em;
       img {
         max-height: 75px;
       }
     }
-
   }
 }
 
