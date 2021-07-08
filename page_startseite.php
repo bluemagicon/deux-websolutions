@@ -6,31 +6,43 @@
 get_header();
 ?>
     <!-- SECTION HERO -->
-    <div id="home-section-hero" class="">
+    <div id="home-section-hero" class="section">
         <div class="alignwide">
-            <div uk-grid class="uk-grid-large">
-                <div class="uk-width-1-2@m uk-margin-auto-vertical">
-                    <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
-                    <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> messbare Ergebnisse.
-                    </h3>
-                    <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>
-                    <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+            <div uk-grid class="uk-flex-middle">
+                <div class="uk-width-2-5@m">
+                    <div class="content-wrapper-small">
+                        <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
+                        <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> messbare Ergebnisse.
+                        </h3>
+                        <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>
+                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                    </div>
+
                 </div>
-                <div class="uk-width-1-2@m img-wrapper hero-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/hero-main-img.png" alt=""/>
+                <div class="uk-width-3-5@m img-wrapper hero-img">
+                    <!--<img src="<?php echo get_template_directory_uri(); ?>/img/hero-main-img.png" alt=""/>-->
+                    <svg class="herosvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.99 834.17">
+                        <defs>
+                            <pattern id="hero-img" patternUnits="userSpaceOnUse" width="800" height="800">
+                                <image href="<?php echo get_template_directory_uri(); ?>/img/hero-main-img.png" x="66" y="0" width="660" height="660"/>
+                            </pattern>
+                        </defs>
+                        <path class="herosvg-back" d="M39.2,92.7c88.5-99,239.3-67.5,369.4-40.8C560.9,83.1,766.8,95.5,797.1,248c29.7,149.5-177.5,209.6-286.6,315.9C406,665.8,341.6,866.2,200.2,829.8,58.6,793.2,86.9,589.6,55.7,446.7,28.7,323-45.1,187.1,39.2,92.7" transform="translate(0.01 0.01)" fill="#f55959"/>
+                        <path class="herosvg-front" d="M342.8.8c140.1-11.3,259.7,97.3,325,221.8,60.6,115.7,62.5,261.9-17.4,365.2-68.3,88.3-196.6,67.1-307.6,55.3C258,634,177.9,603.8,131.2,532.4,79,452.9,62.2,356.9,97.4,268.6,145.4,148,213.4,11.2,342.8.8" transform="translate(0.01 0.01)" fill="url(#hero-img)"/>
+                    </svg>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- SECTION: ZITAT -->
-    <div id="home-section-zitat">
+    <div id="home-section-zitat" class="section">
         <div class="alignwide">
-            <div uk-grid class="uk-grid-large">
+            <div uk-grid class="uk-grid-large uk-flex-middle">
                 <div class="img-wrapper animated uk-width-1-2@m">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
                 </div>
-                <div class="uk-width-1-2@m uk-margin-auto-vertical uk-text-right">
+                <div class="uk-width-1-2@m uk-text-right fade-in">
                     <h2 class="is-style-h1 txt-blue">Unser Antrieb sind messbare Ergebnisse</h2>
                     <p class="zitat"><strong>Dennis Deux.</strong> <em>Geschäftsführer</em></p>
                 </div>
@@ -39,17 +51,19 @@ get_header();
     </div>
 
     <!-- SECTION KUNDEN -->
-    <div id="home-section-kunden">
+    <div id="home-section-kunden" class="section">
         <div class="alignwide">
-            <div uk-grid class="uk-grid-large">
+            <div uk-grid class="uk-grid-large uk-flex-middle">
                 <div class="uk-width-1-2@m content-wrapper">
-                    <strong class="subheadline">Für wen wir arbeiten</strong>
-                    <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
-                    <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus den verschiedensten Branchen. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise mit dem ständigen Ziel Großartiges für Sie zu leisten.</p>
-                    <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                    <div class="content-wrapper-small fade-in">
+                        <strong class="subheadline">Für wen wir arbeiten</strong>
+                        <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
+                        <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus den verschiedensten Branchen. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise mit dem ständigen Ziel Großartiges für Sie zu leisten.</p>
+                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                    </div>
                 </div>
                 <div class="uk-width-1-2@m">
-                    <div uk-grid class="kundenlogos uk-grid-large">
+                    <div uk-grid class="kundenlogos">
                         <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-logo.svg" alt="Audioblock"/>
                         </div>
@@ -105,22 +119,24 @@ get_header();
     </div>
 
     <!-- LEISTUNGEN -->
-    <div id="home-section-leistungen">
+    <div id="home-section-leistungen" class="section">
         <div class="alignwide">
 
             <div uk-grid class="uk-grid-large">
                 <div class="uk-width-1-2@l">
                     <div uk-sticky="offset: 100; bottom: true">
-                        <strong class="subheadline">Was wir anbieten</strong>
-                        <h2 class="is-style-h2">Unsere Leistungen.</h2>
-                        <p>Unser Leistungsspektrum umfasst durchdachte Online-Marketing-Prinzipien, die Ihr Unternehmen beim Wachstum unterstützen.</p>
-                        <ul class="content-list">
-                            <li>Erhöhte Sichtbarkeit</li>
-                            <li>Ansprechendes Design</li>
-                            <li>Stärkung Ihrer Wettbewerbsfähigkeit</li>
-                            <li>Effiziente Budgetnutzung</li>
-                        </ul>
-                        <a href="#ansprechpartner" class="button-primary purple">jetzt kontakt aufnehmen</a>
+                        <div class="content-wrapper-small">
+                            <strong class="subheadline">Was wir anbieten</strong>
+                            <h2 class="is-style-h2">Unsere Leistungen.</h2>
+                            <p>Unser Leistungsspektrum umfasst durchdachte Online-Marketing-Prinzipien, die Ihr Unternehmen beim Wachstum unterstützen.</p>
+                            <ul class="content-list">
+                                <li>Erhöhte Sichtbarkeit</li>
+                                <li>Ansprechendes Design</li>
+                                <li>Stärkung Ihrer Wettbewerbsfähigkeit</li>
+                                <li>Effiziente Budgetnutzung</li>
+                            </ul>
+                            <a href="#ansprechpartner" class="button-primary purple">jetzt kontakt aufnehmen</a>
+                        </div>
                     </div>
                 </div>
 
@@ -128,7 +144,7 @@ get_header();
                     <div uk-grid class="uk-grid-medium">
 
                         <div class="uk-width-1-2@s">
-                            <div class="teaser first-child">
+                            <div class="teaser first-child fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/websites.svg" alt="Websites & Webdesign aus Oldenburg"/>
                                 </div>
@@ -138,7 +154,7 @@ get_header();
                                     <!--<a href="#" class="button-plain">mehr über websites</a>-->
                                 </div>
                             </div>
-                            <div class="teaser">
+                            <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/seo.svg" alt="Suchmaschinenoptimierung (SEO)"/>
                                 </div>
@@ -148,7 +164,7 @@ get_header();
                                     <!--<a href="#" class="button-plain">mehr über seo</a>-->
                                 </div>
                             </div>
-                            <div class="teaser">
+                            <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/schulungen.svg" alt="Schulungen"/>
                                 </div>
@@ -161,7 +177,7 @@ get_header();
                         </div>
 
                         <div class="uk-width-1-2@s">
-                            <div class="teaser">
+                            <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/onlineshops.svg" alt="Onlineshops und E-Commerce"/>
                                 </div>
@@ -171,7 +187,7 @@ get_header();
                                     <!--<a href="#" class="button-plain">mehr über shops</a>-->
                                 </div>
                             </div>
-                            <div class="teaser">
+                            <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/leistung-gads.svg" alt="Google Ads"/>
                                 </div>
@@ -181,7 +197,7 @@ get_header();
                                     <!--<a href="#" class="button-plain">mehr über google ads</a>-->
                                 </div>
                             </div>
-                            <div class="teaser">
+                            <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/hosting-support.svg" alt=""/>
                                 </div>
@@ -200,100 +216,11 @@ get_header();
 
 
     <!-- WARUM DEUX? -->
-    <div class="" id="home-section-warum-deux">
+    <div id="home-section-warum-deux" class="section uk-text-center">
         <div class="alignwide">
             <strong class="subheadline">Wie wir arbeiten</strong>
             <h2 class="is-style-h2">Warum deux websolutions?</h2>
 
-            <div class="slider-wrapper slider-warum-deux">
-                <div class="slide">
-                    <div uk-grid>
-                        <div class="uk-width-1-2@m">
-                            <div class="content-wrapper">
-                                <h3 class="txt-blue is-style-h4">1. Nachweisbare Ergebnisse</h3>
-                                <p>Sie brauchen keine unsichere Wahl zu treffen, denn unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Individuellen Problemen begegnen wir mit individuellen Lösungen und liefern messbare Ergebnisse statt realitätsferne Versprechen.</p>
-
-                                <div class="slider-button-wrapper">
-                                    <div class="slick-arrow-own blue slick-arrow-prev"></div>
-                                    <div class="slick-arrow-own blue slick-arrow-next"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img-wrapper animated uk-width-1-2@m">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <div uk-grid>
-                        <div class="uk-width-1-2@m">
-                            <div class="content-wrapper">
-                                <h3 class="txt-blue is-style-h4">2. Ehrlich und transparent</h3>
-                                <p>Wir glauben an Ehrlichkeit, an Integrität und an den Respekt gegenüber unseren Kunden. Wir bieten Ihnen, passend zu Ihrem Budget, individuelle Lösungen für messbare Erfolge.</p>
-                                <div class="slider-button-wrapper">
-                                    <div class="slick-arrow-own blue slick-arrow-prev"></div>
-                                    <div class="slick-arrow-own blue slick-arrow-next"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-width-1-2@m img-wrapper">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div uk-grid>
-                        <div class="uk-width-1-2@m">
-                            <div class="content-wrapper">
-                                <h3 class="txt-blue is-style-h4">3. Wir wissen, was wir tun</h3>
-                                <p>Klingt selbstverständlich, ist es aber in vielen Fällen nicht: Als Webagentur in Oldenburg bestehen wir aus einem professionellen Team, das für digitales Marketing brennt und bestrebt darin ist, Sie mit echten Ergebnissen zu überzeugen.</p>
-                                <div class="slider-button-wrapper">
-                                    <div class="slick-arrow-own blue slick-arrow-prev"></div>
-                                    <div class="slick-arrow-own blue slick-arrow-next"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-width-1-2@m img-wrapper">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div uk-grid>
-                        <div class="uk-width-1-2@m">
-                            <div class="content-wrapper">
-                                <h3 class="txt-blue is-style-h4">4. Sie an erster Stelle</h3>
-                                <p>Für viele Agenturen ist eine kundenorientierte Ausrichtung eine Priorität und schmückt oft als wichtiger Verkaufspunkt ihre Webseiten, aber nur wenige ziehen diese Haltung auch durch. Wir versprechen Ihnen: Wir sind da mit über 10 Jahren Erfahrung und vielen namhaften Kunden anders.</p>
-                                <div class="slider-button-wrapper">
-                                    <div class="slick-arrow-own blue slick-arrow-prev"></div>
-                                    <div class="slick-arrow-own blue slick-arrow-next"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-width-1-2@m img-wrapper">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div uk-grid>
-                        <div class="uk-width-1-2@m">
-                            <div class="content-wrapper">
-                                <h3 class="txt-blue is-style-h4">5. Großes Netzwerk, große Lösungen</h3>
-                                <p>Wir haben uns auf wichtige Leistungen spezialisiert, die viele Probleme lösen können. Sollten wir dennoch an unsere Grenzen stoßen, wissen wir an wen wir uns wenden können, um Ihnen eben doch den Service zu liefern, den Sie als unser Kunde wünschen.</p>
-                                <div class="slider-button-wrapper">
-                                    <div class="slick-arrow-own blue slick-arrow-prev"></div>
-                                    <div class="slick-arrow-own blue slick-arrow-next"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-width-1-2@m img-wrapper">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/warum-deux.png" alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -308,7 +235,6 @@ get_header();
             </div>
         </div>
         <div class="slider-wrapper referenzen">
-
             <div class="slide" id="slide-audioblock" style="background: linear-gradient(#3c3c40 0%, #2d2d2f 100%);">
                 <div class="alignwide">
                     <div uk-grid>

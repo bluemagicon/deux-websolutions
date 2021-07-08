@@ -1,61 +1,48 @@
 /*** GLOBAL ***/
 body {
-  background-color: $w-bg-color-light;
   overflow: visibile;
 }
-html{
 
-}
-
+/*** HELPER ***/
 .img-wrapper {
   display: block;
-
   img {
     display: block;
     width: 100%;
   }
 }
+.section{
+  position: relative;
+  margin: 25vh 0;
+  border: 1px solid red;
+}
+.content-wrapper-small{
+  max-width: 600px;
+}
 
 /*** HOME: HERO ***/
 #home-section-hero {
-  background-image: url('../../img/bg-first-section.svg');
-  background-size: auto 100%;
-  background-position: left top;
-  background-repeat: no-repeat;
-  /*padding: 150px 0 14.32vw 0;*/
   padding: 150px 0 0 0;
-
-  .hero-img {
-    position: relative;
-
-    img {
-      position: relative;
-      z-index: 1;
-    }
-
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      height: 126%;
-      width: 135%;
-      background-image: url(../../img/form-red.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      top: 5%;
-      left: -3%;
-      /*animation: float 6s ease-in-out infinite;*/
-    }
+  margin-top: 0;
+  &:after{
+    content: '';
+    background-image: url('../../img/bg-first-section.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    width: 90vw;
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 }
 
 /*** HOME: ZITAT ***/
 #home-section-zitat {
-  margin-top: 20rem;
-
   .is-style-h1 {
     position: relative;
-
     &:after {
       content: "“";
       position: absolute;
@@ -64,24 +51,32 @@ html{
       font-size: 7rem;
     }
   }
-
 }
 
 /*** HOME: KUNDEN ***/
 #home-section-kunden {
-  background-image: url('../../img/kunden-logos-bg.svg');
   background-position: right center;
   background-repeat: no-repeat;
   background-size: auto 100%;
-  padding: 17vw 0 31.25vw 0;
-
-  .content-wrapper {
-    padding-right: 50px;
+  &:after{
+    content: '';
+    background-image: url('../../img/kunden-logos-bg.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: -1;
+    width: 55vw;
+    height: 120vh;
+    position: absolute;
+    top: -10vh;
+    right: 0;
   }
+  .content-wrapper {
 
+  }
   .kundenlogos {
     .logo {
-      padding: 2em;
+      padding: 3em 2.5em;
       img {
         max-height: 75px;
       }
@@ -91,6 +86,7 @@ html{
 
 /*** HOME: LEISTUNGEN ***/
 #home-section-leistungen {
+  padding-top: 100px;
   .teaser {
     background-color: #353583;
     background-image: url('../../img/teaser-bg.jpg');
@@ -99,27 +95,22 @@ html{
     background-repeat: no-repeat;
     padding: 30px;
     margin: 0 0 30px 0;
-
     &.first-child {
       margin-top: -100px;
     }
-
     .img-wrapper {
       margin: 0 auto 25px auto;
       max-width: 80%;
-
       img {
         max-height: 175px;
       }
     }
-
     .content-wrapper {
       strong {
         font-size: 1.5em;
         color: #fff;
         line-height: 1.2;
       }
-
       p {
         font-size: 0.8em;
         color: #fff;
@@ -131,13 +122,6 @@ html{
 
 /*** HOME: WARUM DEUX ? ***/
 #home-section-warum-deux {
-  background-image: url('../../img/bg-warum-deux.svg');
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: auto 100%;
-  padding: 62.5vw 0 26.04vw 0;
-  margin-top: -52.08vw;
-
   .content-wrapper {
     padding: 50px 50px 0 0;
   }
@@ -153,17 +137,14 @@ html{
     width: 100%;
     padding: 0;
     margin: 0;
-
     li {
       margin-right: 6px;
       display: flex;
       align-items: center;
-
       &::marker {
         content: "";
         display: none;
       }
-
       button {
         text-indent: -20000em;
         width: 10px;
@@ -171,7 +152,6 @@ html{
         border-radius: 50%;
         background: #fff;
       }
-
       &.slick-active {
         button {
           background: $w-color-primary;
@@ -181,7 +161,6 @@ html{
       }
     }
   }
-
   .slick-arrow {
     position: absolute;
     top: 50%;
@@ -199,32 +178,12 @@ html{
     &:hover {
       transform: scale(1.1);
     }
-
     &.slick-prev {
       background-image: url(../../img/slider-arrow-left-white.svg);
       left: 16px;
     }
   }
 }
-
-
-/*** TWO-COL ***/
-/*.two-col-wrapper {
-  .flex-wrapper {
-    display: flex;
-    justify-content: space-between;
-
-    .col {
-      width: 45%;
-      position: relative;
-
-      &:last-child {
-        width: 50%;
-      }
-    }
-  }
-}*/
-
 
 /*** PROJEKT-SLIDER ***/
 #home-section-projekte {
@@ -237,7 +196,6 @@ html{
     padding: 100px 0;
   }
 }
-
 
 /*** V-Card ***/
 .vcard {

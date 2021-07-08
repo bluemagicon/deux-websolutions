@@ -15,6 +15,12 @@ function myFunction() {
   }
 }
 
+ScrollReveal().reveal('.fade-in',{
+    delay: 700,
+    duration: 1000,
+    distance: '50px',
+    easing: 'ease-in'
+});
 
 // -----------------------------------------------
 // -----------------------------------------------
