@@ -20,7 +20,6 @@ get_header();
 
                 </div>
                 <div class="uk-width-3-5@m img-wrapper hero-img">
-                    <!--<img src="<?php echo get_template_directory_uri(); ?>/img/hero-main-img.png" alt=""/>-->
                     <svg class="herosvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.99 834.17">
                         <defs>
                             <pattern id="hero-img" patternUnits="userSpaceOnUse" width="800" height="800">
@@ -39,8 +38,19 @@ get_header();
     <div id="home-section-zitat" class="section">
         <div class="alignwide">
             <div uk-grid class="uk-grid-large uk-flex-middle">
-                <div class="img-wrapper animated uk-width-1-2@m">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
+                <div class="uk-width-1-2@m">
+                    <div class="img-wrapper animated">
+                        <!--<img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="812" height="741.361" viewBox="0 0 812 741.361">
+                            <defs>
+                                <pattern id="hero-img" patternUnits="userSpaceOnUse" width="800" height="800">
+                                    <image href="<?php echo get_template_directory_uri(); ?>/img/deux-websolutions-hero-4.jpg" x="66" y="0" width="660" height="660"/>
+                                </pattern>
+                            </defs>
+                            <path id="deux-websolutions-hero-2" d="M596.218,209.372c125.239-12.826,251.8,35.012,334.714,129.744,87.573,100.054,145.418,241.3,99.149,365.951-42.609,114.8-186.668,132.918-300.79,177.3-96.921,37.692-195.063,91.469-291.73,53.13-103.627-41.1-178.669-138.209-199.1-247.8-19.57-104.962,35.284-202.324,99.234-287.825,67.454-90.186,146.492-179.027,258.527-190.5" transform="translate(-234.434 -207.321)" fill="url(#hero-img)" />
+                        </svg>
+                    </div>
+
                 </div>
                 <div class="uk-width-1-2@m uk-text-center uk-text-right@m fade-in">
                     <h2 class="is-style-h1 txt-blue">Unser Antrieb sind messbare Ergebnisse</h2>
