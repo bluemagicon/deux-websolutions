@@ -291,6 +291,12 @@ body {
       }
       &:last-child{
         padding: 7.5% 5%;
+        background: #fff;
+        .adress{
+          strong{
+            color: #000;
+          }
+        }
         .space-dot{
           height: 8px;
           width: 8px;
@@ -313,6 +319,7 @@ body {
       display: block;
       width: 100%;
       resize: none;
+      background: $w-def-background-color;
     }
   }
   .flex-wrapper {

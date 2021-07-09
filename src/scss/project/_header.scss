@@ -139,6 +139,7 @@
 #header{
     padding: 25px 0;
     position: absolute;
+    z-index: 999;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -178,6 +179,41 @@
                 a{
                     color: $w-color-primary;
                 }
+            }
+        }
+    }
+    .phone-icon{
+        display: none;
+    }
+}
+@media(max-width: $breakpoint-small) {
+    #header{
+        .logo-wrapper{
+            svg{
+                width: 225px;
+            }
+        }
+        .contact{
+            display: none;
+        }
+        .phone-icon{
+            display: block !important;
+            height: 50px;
+            width: 50px;
+            background-color: $w-color-primary;
+            border-radius: 100%;
+            padding: 12px;
+            animation: pulsate 2s infinite;
+        }
+        @keyframes pulsate {
+            0%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1.04);
+            }
+            100%{
+                transform: scale(1);
             }
         }
     }

@@ -70,6 +70,9 @@ $page_header	= $override_header ?: $global_header;
                 <a href="mailto:info@deux.de">info@deux.de</a>
                 <a href="tel:+4944193658002">0441 936 580 02</a>
             </div>
+            <a href="tel:+4944193658002" class="phone-icon">
+                <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M5,6A8.22,8.22,0,0,0,8,9.05l.69-1a.78.78,0,0,1,1-.23,8.91,8.91,0,0,0,3.56,1.06.77.77,0,0,1,.72.77v3.47a.78.78,0,0,1-.7.78A12.07,12.07,0,0,1,.06,3.17,12.74,12.74,0,0,1,.06.7.78.78,0,0,1,.84,0H4.31a.77.77,0,0,1,.77.72A8.91,8.91,0,0,0,6.14,4.28a.78.78,0,0,1-.23,1ZM3,5.46l1.48-1a10.65,10.65,0,0,1-.86-2.85h-2v.38a10.5,10.5,0,0,0,10.5,10.5h.38v-2a10.65,10.65,0,0,1-2.85-.86L8.54,11a10.78,10.78,0,0,1-1.24-.58l0,0A9.74,9.74,0,0,1,3.6,6.74l0,0A9.33,9.33,0,0,1,3,5.46Z"/></svg>
+            </a>
             <!--
             <div class="mainnav-wrapper">
                 <?php echo wp_nav_menu(array('menu' => 'Hauptmenü')); ?>
