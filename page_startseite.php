@@ -24,7 +24,7 @@ get_header();
                     <svg class="herosvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799.99 834.17">
                         <defs>
                             <pattern id="hero-img" patternUnits="userSpaceOnUse" width="800" height="800">
-                                <image href="<?php echo get_template_directory_uri(); ?>/img/hero-main-img.png" x="66" y="0" width="660" height="660"/>
+                                <image href="<?php echo get_template_directory_uri(); ?>/img/deux-websolutions-hero-4.jpg" x="66" y="0" width="660" height="660"/>
                             </pattern>
                         </defs>
                         <path class="herosvg-back" d="M39.2,92.7c88.5-99,239.3-67.5,369.4-40.8C560.9,83.1,766.8,95.5,797.1,248c29.7,149.5-177.5,209.6-286.6,315.9C406,665.8,341.6,866.2,200.2,829.8,58.6,793.2,86.9,589.6,55.7,446.7,28.7,323-45.1,187.1,39.2,92.7" transform="translate(0.01 0.01)" fill="#f55959"/>
