@@ -257,7 +257,8 @@ get_header();
                 <div class="alignwide">
                     <div uk-grid>
                         <div class="img-wrapper uk-width-1-2@m">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>
+                            <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/video-dummy.mp4" playsinline=""></video>
+                            <!--<img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>-->
                         </div>
                         <div class="col uk-width-1-2@m">
                             <div class="projekt-content-wrapper">
@@ -275,18 +276,32 @@ get_header();
 
     <script type="text/javascript">
         $(document).ready(function () {
+            /*
             $('.slider-warum-deux').slick({
                 fade: true,
                 prevArrow: $('.slider-warum-deux .slick-arrow-prev'),
                 nextArrow: $('.slider-warum-deux .slick-arrow-next'),
             });
+            */
 
             $('.slider-wrapper.referenzen').slick({
                 fade: true,
                 dots: true,
-                arrows: true,
+                arrows: true
             });
 
+            $('.slider-wrapper.referenzen').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+
+                // pause old video (better performance)
+                var old_vid = $('.slider-wrapper.referenzen .slide:eq('+currentSlide+')').find('video');
+                $(old_vid).get(0).pause();
+
+                // play current video from start
+                var cur_vid = $('.slider-wrapper.referenzen .slide:eq('+nextSlide+')').find('video');
+                $(cur_vid).get(0).currentTime = 0;
+                $(cur_vid).get(0).play();
+
+            });
         });
     </script>
 
