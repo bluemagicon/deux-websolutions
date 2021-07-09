@@ -38,6 +38,7 @@
     "hiraku": "latest",
     "scrollreveal": "latest",
     "swiper": "latest",
+    "typer.js": "^1.2.1",
     "uikit": "latest"
   },
   "browserslist": [

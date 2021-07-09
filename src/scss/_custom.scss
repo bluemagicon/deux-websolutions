@@ -11,11 +11,13 @@ body {
     width: 100%;
   }
 }
+.txt-black{
+  color: #000;
+}
 
 .section{
   position: relative;
   margin: 25vh 0;
-  border: 1px solid red;
 }
 .content-wrapper-small{
   max-width: 600px;
@@ -25,6 +27,9 @@ body {
 #home-section-hero {
   padding: 150px 0 0 0;
   margin-top: 0;
+  #hero-typer{
+    color: $w-color-secondary;
+  }
   &:after{
     content: '';
     background-image: url('../../img/bg-first-section.svg');
@@ -42,6 +47,15 @@ body {
 
 /*** HOME: ZITAT ***/
 #home-section-zitat {
+  .zitat{
+    em{
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-size: 0.7em;
+      font-style: normal;
+      margin-left: 5px;
+    }
+  }
   .is-style-h1 {
     position: relative;
     &:after {
@@ -195,6 +209,9 @@ body {
   }
   .slick-slide {
     padding: 100px 0;
+    video{
+      width: 100%;
+    }
   }
 }
 
@@ -324,4 +341,27 @@ body {
   .ajax-loader{
     display: none !important;
   }
+}
+
+
+@media(max-width: $breakpoint-small) {
+  .section{
+    margin: 10vh 0;
+  }
+  #home-section-hero{
+    &:after{
+      width: 95vw;
+      height: 80vh;
+    }
+    .hero-img{
+      display: none;
+    }
+  }
+  #home-section-kunden:after{
+    display: none;
+  }
+  #home-section-kunden .kundenlogos .logo{
+    padding: 1.5em;
+  }
+
 }

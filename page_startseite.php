@@ -12,7 +12,7 @@ get_header();
                 <div class="uk-width-2-5@m">
                     <div class="content-wrapper-small">
                         <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
-                        <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> messbare Ergebnisse.
+                        <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/> <span id="hero-typer"></span>
                         </h3>
                         <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>
                         <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
@@ -42,9 +42,9 @@ get_header();
                 <div class="img-wrapper animated uk-width-1-2@m">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
                 </div>
-                <div class="uk-width-1-2@m uk-text-right fade-in">
+                <div class="uk-width-1-2@m uk-text-center uk-text-right@m fade-in">
                     <h2 class="is-style-h1 txt-blue">Unser Antrieb sind messbare Ergebnisse</h2>
-                    <p class="zitat"><strong>Dennis Deux.</strong> <em>Geschäftsführer</em></p>
+                    <p class="zitat txt-black"><strong>Dennis Deux.</strong> <em>Geschäftsführer</em></p>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@ get_header();
 
             <div uk-grid class="uk-grid-large">
                 <div class="uk-width-1-2@l">
-                    <div uk-sticky="offset: 100; bottom: true">
+                    <div uk-sticky="offset: 100; bottom: true; media: 1200">
                         <div class="content-wrapper-small">
                             <strong class="subheadline">Was wir anbieten</strong>
                             <h2 class="is-style-h2">Unsere Leistungen.</h2>
@@ -239,7 +239,8 @@ get_header();
                 <div class="alignwide">
                     <div uk-grid>
                         <div class="img-wrapper uk-width-1-2@m">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>
+                            <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/video-dummy.mp4" playsinline=""></video>
+                            <!--<img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>-->
                         </div>
                         <div class="col uk-width-1-2@m">
                             <div class="projekt-content-wrapper">

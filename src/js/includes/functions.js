@@ -16,8 +16,8 @@ function myFunction() {
 }
 
 ScrollReveal().reveal('.fade-in',{
-    delay: 700,
-    duration: 1000,
+    delay: 400,
+    duration: 800,
     distance: '50px',
     easing: 'ease-in'
 });
@@ -53,6 +53,20 @@ jQuery(document).ready(function () {
             scrollTo(window.location.hash);
         }, 1);
     }
+
+
+    jQuery("#hero-typer").typer({
+        typeSpeed: 70,
+        backspaceSpeed: 20,
+        autoStart:true,
+        backspaceDelay: 3000,
+        repeatDelay: 1000,
+        strings: [
+            "messbare Ergebnisse.",
+            "zufriedene Kunden.",
+            "neue Technologien."
+        ],
+    });
 
     // -----------------------------------------------
     // -----------------------------------------------
