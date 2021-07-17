@@ -17,9 +17,9 @@ function myFunction() {
 
 ScrollReveal().reveal('.fade-in',{
     delay: 400,
-    duration: 800,
+    duration: 1000,
     distance: '50px',
-    easing: 'ease-in'
+    easing: 'ease-in-out'
 });
 
 // -----------------------------------------------
