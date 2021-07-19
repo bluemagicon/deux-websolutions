@@ -1,6 +1,6 @@
 .img-wrapper.animated{
   position: relative;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   img{
     position: relative;
     z-index: 9;
@@ -20,7 +20,6 @@
   top: 2%;
   left: 5%;
   z-index: -2;
-  display: none;
 }
 
 @keyframes morph {

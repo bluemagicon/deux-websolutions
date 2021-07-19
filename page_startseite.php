@@ -41,7 +41,7 @@ get_header();
 
             <div uk-grid class="uk-grid-large">
                 <div class="uk-width-1-2@l">
-                    <div uk-sticky="offset: 100; bottom: true; media: 1200">
+                    <div uk-sticky="media: 1200; offset: 100; bottom: true;">
                         <div class="content-wrapper-small">
                             <strong class="subheadline">Was wir anbieten</strong>
                             <h2 class="is-style-h2">Unsere Leistungen.</h2>
@@ -57,10 +57,10 @@ get_header();
                     </div>
                 </div>
 
-                <div class="uk-width-1-2@l" id="home-leistungen">
-                    <div uk-grid class="uk-grid-medium">
+                <div class="uk-width-1-2@l uk-width-1-2@l" id="home-leistungen">
 
-                        <div class="uk-width-1-2@s">
+                    <div uk-grid="masonry: true" class="uk-grid-medium uk-child-width-1-2@l uk-child-width-1-3@m">
+                        <div>
                             <div class="teaser first-child fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/websites.svg" alt="Websites & Webdesign aus Oldenburg"/>
@@ -71,29 +71,8 @@ get_header();
                                     <!--<a href="#" class="button-plain">mehr über websites</a>-->
                                 </div>
                             </div>
-                            <div class="teaser fade-in">
-                                <div class="img-wrapper">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/seo.svg" alt="Suchmaschinenoptimierung (SEO)"/>
-                                </div>
-                                <div class="content-wrapper">
-                                    <strong>Suchmaschinen-Optimierung</strong>
-                                    <p>Mit strategischer Vorgehensweise steigern wir die Sichtbarkeit Ihrer Website bei Google und erreichen höhere Positionen für mehr Besucher.</p>
-                                    <!--<a href="#" class="button-plain">mehr über seo</a>-->
-                                </div>
-                            </div>
-                            <div class="teaser fade-in">
-                                <div class="img-wrapper">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/schulungen.svg" alt="Schulungen"/>
-                                </div>
-                                <div class="content-wrapper">
-                                    <strong>Schulungen</strong>
-                                    <p>Wir bieten Ihnen Inhouse-Schulungen, um Ihrer Marketingabteilung aktuelles Wissen zu digitalem Marketing verständlich zu vermitteln.</p>
-                                    <!--<a href="#" class="button-plain">mehr über schulungen</a>-->
-                                </div>
-                            </div>
                         </div>
-
-                        <div class="uk-width-1-2@s">
+                        <div>
                             <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/onlineshops.svg" alt="Onlineshops und E-Commerce"/>
@@ -104,6 +83,20 @@ get_header();
                                     <!--<a href="#" class="button-plain">mehr über shops</a>-->
                                 </div>
                             </div>
+                        </div>
+                        <div>
+                            <div class="teaser fade-in">
+                                <div class="img-wrapper">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/seo.svg" alt="Suchmaschinenoptimierung (SEO)"/>
+                                </div>
+                                <div class="content-wrapper">
+                                    <strong>Suchmaschinen-Optimierung</strong>
+                                    <p>Mit strategischer Vorgehensweise steigern wir die Sichtbarkeit Ihrer Website bei Google und erreichen höhere Positionen für mehr Besucher.</p>
+                                    <!--<a href="#" class="button-plain">mehr über seo</a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div>
                             <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/leistung-gads.svg" alt="Google Ads"/>
@@ -114,6 +107,22 @@ get_header();
                                     <!--<a href="#" class="button-plain">mehr über google ads</a>-->
                                 </div>
                             </div>
+                        </div>
+                        <div>
+                            <div class="teaser fade-in">
+                                <div class="img-wrapper">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/schulungen.svg" alt="Schulungen"/>
+                                </div>
+                                <div class="content-wrapper">
+                                    <strong>Workshops</strong>
+                                    <p>Wir bieten Ihnen Inhouse-Schulungen, um Ihrer Marketingabteilung aktuelles Wissen zu digitalem Marketing verständlich zu vermitteln.</p>
+                                    <!--<a href="#" class="button-plain">mehr über schulungen</a>-->
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div>
                             <div class="teaser fade-in">
                                 <div class="img-wrapper">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/hosting-support.svg" alt=""/>
@@ -125,6 +134,7 @@ get_header();
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -149,71 +159,6 @@ get_header();
         </div>
     </div>
 
-    <!-- SECTION KUNDEN -->
-    <div id="home-section-kunden" class="section">
-        <div class="alignwide">
-            <div uk-grid class="uk-grid-large uk-flex-middle">
-                <div class="uk-width-1-2@m content-wrapper">
-                    <div class="content-wrapper-small fade-in">
-                        <strong class="subheadline">Für wen wir arbeiten</strong>
-                        <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
-                        <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus den verschiedensten Branchen. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise mit dem ständigen Ziel Großartiges für Sie zu leisten.</p>
-                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
-                    </div>
-                </div>
-                <div class="uk-width-1-2@m">
-                    <div uk-grid class="kundenlogos">
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-logo.svg" alt="Audioblock"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/cwm-logo.svg" alt="Carl Wilhelm Meyer"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/siemer-logo.svg" alt="Siemer Treppenlifte"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/ife-logo.svg" alt="IFE Eriksen"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/buefa-logo.svg" alt="BÜFA"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/schmacker-logo.svg" alt="Schmacker"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/poppen-logo.svg" alt="Poppen Gewächshausbau"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/pt-logo.svg" alt="PT Oldenburg - André Janacek"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/bruno-logo.svg" alt="BRUNO - Der Oldenbäcker"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/prasse-logo.svg" alt="Zahnarztpraxis Dres. Prasse"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/ldo-logo.svg" alt="Laserzentrum Oldenburg"/>
-                        </div>
-                        <div class="logo img-wrapper uk-width-1-4 uk-margin-auto-vertical">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/stopp-gabler-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- WARUM DEUX? -->
-    <div id="home-section-warum-deux" class="section uk-text-center">
-        <div class="alignwide">
-            <strong class="subheadline">Wie wir arbeiten</strong>
-            <h2 class="is-style-h2">Warum deux websolutions?</h2>
-
-        </div>
-    </div>
 
     <!-- PROJEKTE -->
     <div class="projekte-slider-wrapper" id="home-section-projekte">
@@ -226,7 +171,7 @@ get_header();
             </div>
         </div>
         <div class="slider-wrapper referenzen">
-            <div class="slide" id="slide-audioblock" style="background: linear-gradient(#3c3c40 0%, #2d2d2f 100%);">
+            <div class="slide" id="slide-audioblock" style="background: #161315;">
                 <div class="alignwide">
                     <div uk-grid>
                         <div class="img-wrapper uk-width-1-2@m">
@@ -236,6 +181,7 @@ get_header();
                         <div class="col uk-width-1-2@m">
                             <div class="projekt-content-wrapper">
                                 <h3 class="is-style-h3 txt-white">Audioblock</h3>
+                                <p>Für den HiFi-Hersteller Audioblock haben wir einen Shop auf Basis von Shopware 6 umgesetzt. Weitere Highlights des Projekts sind die Fachhändlersuche und die zusätzlichen Versandarten "Click & Collect" und "Click & Deliver".</p>
                                 <p>Für den HiFi-Hersteller Audioblock haben wir einen Shop auf Basis von Shopware 6 umgesetzt. Weitere Highlights des Projekts sind die Fachhändlersuche und die zusätzlichen Versandarten "Click & Collect" und "Click & Deliver".</p>
                                 <a href="https://audioblock.de" target="_blank" class="button-plain">www.audioblock.de</a>
                             </div>
@@ -264,6 +210,74 @@ get_header();
 
         </div>
     </div>
+
+    <!-- SECTION KUNDEN -->
+    <div id="home-section-kunden" class="section">
+        <div class="alignwide">
+            <div uk-grid class="uk-grid-large uk-flex-middle">
+                <div class="uk-width-2-5@m content-wrapper fade-in">
+                    <div class="content-wrapper-small">
+                        <strong class="subheadline">Für wen wir arbeiten</strong>
+                        <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
+                        <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus den verschiedensten Branchen. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise mit dem ständigen Ziel Großartiges für Sie zu leisten.</p>
+                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                    </div>
+                </div>
+                <div class="uk-width-3-5@m">
+                    <div uk-grid class="kundenlogos uk-grid-medium uk-child-width-1-3 uk-child-width-1-3@m uk-child-width-1-4@xl">
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-logo.svg" alt="Audioblock"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/cwm-logo.svg" alt="Carl Wilhelm Meyer"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/siemer-logo.svg" alt="Siemer Treppenlifte"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ife-logo.svg" alt="IFE Eriksen"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/buefa-logo.svg" alt="BÜFA"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/schmacker-logo.svg" alt="Schmacker"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/poppen-logo.svg" alt="Poppen Gewächshausbau"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pt-logo.svg" alt="PT Oldenburg - André Janacek"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/bruno-logo.svg" alt="BRUNO - Der Oldenbäcker"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/prasse-logo.svg" alt="Zahnarztpraxis Dres. Prasse"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ldo-logo.svg" alt="Laserzentrum Oldenburg"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/stopp-gabler-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- WARUM DEUX? -->
+    <div id="home-section-warum-deux" class="section uk-text-center">
+        <div class="alignwide">
+            <strong class="subheadline">Wie wir arbeiten</strong>
+            <h2 class="is-style-h2">Warum deux websolutions?</h2>
+
+        </div>
+    </div>
+
+
 
     <script type="text/javascript">
         $(document).ready(function () {
