@@ -31,7 +31,7 @@ body {
   padding: 150px 0 0 0;
   margin-top: 0;
   .content-wrapper-small{
-    
+
   }
 
   #hero-typer {
@@ -108,6 +108,7 @@ body {
 
       img {
         max-height: 75px;
+        max-width: 130px;
       }
     }
   }
@@ -163,6 +164,19 @@ body {
 
 /*** PROJEKTE ***/
 #home-section-projekte {
+  .slick-slider:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(../../img/schwung-video.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+
+  }
   .slick-dots {
     position: absolute;
     bottom: 1rem;
@@ -187,14 +201,15 @@ body {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background: #fff;
+        border: 1px solid #fff;
       }
 
       &.slick-active {
         button {
-          background: $w-color-primary;
+          background: #fff;
           width: 14px;
           height: 14px;
+          border: 0;
         }
       }
     }
@@ -228,7 +243,6 @@ body {
 /*** PROJEKT-SLIDER ***/
 #home-section-projekte {
   .projekt-content-wrapper {
-    background: #000;
     padding: 35px;
     color: #fff;
   }
@@ -239,10 +253,21 @@ body {
   }
 
   .slick-slide {
-    padding: 100px 0;
+    padding: 150px 0 100px 0;
+    position: relative;
+    a.button-plain{
+      font-size: 1.2em;
+      color: #fff;
+    }
 
     video {
-      width: 100%;
+      max-width: 70%;
+    }
+    .referenz-content-wrapper{
+      position: absolute;
+      left: 60%;
+      top: 50%;
+      transform: translate(0px, -50%);
     }
   }
 }
@@ -361,7 +386,21 @@ body {
       width: 100%;
       resize: none;
       background: $w-def-background-color;
+      &.wpcf7-not-valid{
+        background: #ffe5e5;
+      }
     }
+  }
+  .wpcf7-not-valid-tip{
+    display: none;
+  }
+  .wpcf7 form .wpcf7-response-output{
+    margin: 50px 0 0 0;
+    padding: 20px;
+    border: 0;
+    background: $w-color-primary;
+    font-weight: 600;
+    color: #fff;
   }
 
   .flex-wrapper {

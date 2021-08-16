@@ -12,10 +12,11 @@ get_header();
                 <div class="uk-width-2-5@m">
                     <div class="content-wrapper-small">
                         <strong class="subheadline">Digitalagentur aus Oldenburg.</strong>
-                        <h3 class="is-style-h1-featured-overflow is-style-h1">Unser Antrieb sind<br/>
+                        <h3 class="is-style-h1-featured-overflow is-style-h1">Wir entwickeln<br/>
                             <span id="hero-typer"></span>
                         </h3>
-                        <p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>
+                        <!--<p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>-->
+                        <p>Deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
                         <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
                     </div>
 
@@ -45,12 +46,12 @@ get_header();
                         <div class="content-wrapper-small">
                             <strong class="subheadline">Was wir anbieten</strong>
                             <h2 class="is-style-h2">Unsere Leistungen.</h2>
-                            <p>Unser Leistungsspektrum umfasst durchdachte Online-Marketing-Prinzipien, die Ihr Unternehmen beim Wachstum unterstützen.</p>
+                            <p>Unser Leistungsspektrum umfasst sämtliche Online Marketing-Strategien und -Maßnahmen, die Ihr Unternehmen beim Wachstum unterstützen. Mit unserer Kreativität und aktuellem technischen Know How unterstützen wie Sie in allen Online-Themen.</p>
                             <ul class="content-list">
-                                <li>Erhöhte Sichtbarkeit</li>
-                                <li>Ansprechendes Design</li>
-                                <li>Stärkung Ihrer Wettbewerbsfähigkeit</li>
-                                <li>Effiziente Budgetnutzung</li>
+                                <li>Moderne Ästhetik und ansprechendes Design</li>
+                                <li>Wirkungsvolle Nutzererfahrung</li>
+                                <li>Technisch hochwertige Ergebnisse</li>
+                                <li>Effiziente Nutzung Ihres Marketingbudgets</li>
                             </ul>
                             <a href="#ansprechpartner" class="button-primary purple">jetzt kontakt aufnehmen</a>
                         </div>
@@ -67,7 +68,7 @@ get_header();
                                 </div>
                                 <div class="content-wrapper">
                                     <strong>Websites</strong>
-                                    <p>Wir realisieren Webseiten, die Sie in bestem Licht repräsentieren. Mit professionellem Webdesign sorgen wir für hohe Performance und Unterstützung beim Unternehmenswachstum.</p>
+                                    <p>Wir realisieren Webseiten, die Sie in bestem Licht repräsentieren. Mit professionellem Webdesign sorgen wir für hohe Performance und Unterstützung beim Unternehmenswachstum und dem Erreichen Ihrer Ziele.</p>
                                     <!--<a href="#" class="button-plain">mehr über websites</a>-->
                                 </div>
                             </div>
@@ -79,7 +80,7 @@ get_header();
                                 </div>
                                 <div class="content-wrapper">
                                     <strong>Onlineshops</strong>
-                                    <p>Als Experten in der E-Commerce-Webentwicklung helfen wir Ihnen in neue Umsatzregionen vorzustoßen oder Ihren bestehenden Online-Shop zu optimieren.</p>
+                                    <p>Als Experten in der E-Commerce-Webentwicklung beraten wir Sie zum Einsatz verschiedenster Online-Shopsysteme, entwickeln Ihren Shop oder optimieren bestehende Online-Shops.</p>
                                     <!--<a href="#" class="button-plain">mehr über shops</a>-->
                                 </div>
                             </div>
@@ -91,7 +92,7 @@ get_header();
                                 </div>
                                 <div class="content-wrapper">
                                     <strong>Suchmaschinen-Optimierung</strong>
-                                    <p>Mit strategischer Vorgehensweise steigern wir die Sichtbarkeit Ihrer Website bei Google und erreichen höhere Positionen für mehr Besucher.</p>
+                                    <p>Mit fundiertem Expertenwissen und strategischer Vorgehensweise steigern wir die Sichtbarkeit Ihrer Website bei Google und erreichen höhere Positionen für mehr Besucher.</p>
                                     <!--<a href="#" class="button-plain">mehr über seo</a>-->
                                 </div>
                             </div>
@@ -103,7 +104,8 @@ get_header();
                                 </div>
                                 <div class="content-wrapper">
                                     <strong>Google Ads</strong>
-                                    <p>Wir erstellen, betreuen und optimieren Ihre PPC-Kampagnen und stellen eine effiziente Nutzung bei maximalen Ergebnissen Ihres Budgets sicher.</p>
+                                    <!--<p>Wir erstellen, betreuen und optimieren Ihre PPC-Kampagnen und stellen eine effiziente Nutzung bei maximalen Ergebnissen Ihres Budgets sicher.</p>-->
+                                    <p>Wir erstellen, betreuen und optimieren Ihre PPC (Pay per Click)-Werbekampagnen und stellen eine effektive Nutzung Ihres Budgets sicher – für Ihren maximalen Erfolg.</p>
                                     <!--<a href="#" class="button-plain">mehr über google ads</a>-->
                                 </div>
                             </div>
@@ -115,12 +117,11 @@ get_header();
                                 </div>
                                 <div class="content-wrapper">
                                     <strong>Workshops</strong>
-                                    <p>Wir bieten Ihnen Inhouse-Schulungen, um Ihrer Marketingabteilung aktuelles Wissen zu digitalem Marketing verständlich zu vermitteln.</p>
+                                    <p>Gute Arbeit basiert auf einem tiefgehenden Verständnis Ihrer Anforderungen und Ziele. Für optimale Ergebnisse starten wir Projekte in der Regel mit einem kurzen Workshop, der den konkreten Bedarf erfasst.</p>
                                     <!--<a href="#" class="button-plain">mehr über schulungen</a>-->
                                 </div>
                             </div>
                         </div>
-
 
                         <div>
                             <div class="teaser fade-in">
@@ -129,7 +130,7 @@ get_header();
                                 </div>
                                 <div class="content-wrapper">
                                     <strong>Webhosting</strong>
-                                    <p>Erreichen Sie technische Spitzenwerte und bessere Nutzererfahrung für Ihre Webseite. Als Hosting-Anbieter bieten wir bessere Erreichbarkeit und Stabilität, sowie hohe Ladegeschwindigkeiten.</p>
+                                    <p>Wir stellen für unsere Kunden Webspace zur Verfügung. Sie profitieren dabei von zuverlässiger Erreichbarkeit, hohen Ladegeschwindigkeiten und erstklassigem Service rund um Webseite und E-Mails.</p>
                                     <!--<a href="#" class="button-plain">mehr zum thema</a>-->
                                 </div>
                             </div>
@@ -152,7 +153,7 @@ get_header();
 
                 </div>
                 <div class="uk-width-1-2@m uk-text-center uk-text-right@m fade-in">
-                    <h2 class="is-style-h1 txt-blue">Unser Antrieb sind messbare Ergebnisse</h2>
+                    <h2 class="is-style-h1 txt-blue">Unser Antrieb sind erfolgreiche, zufriedene Kunden</h2>
                     <p class="zitat txt-black"><strong>Dennis Deux.</strong> <em>Geschäftsführer</em></p>
                 </div>
             </div>
@@ -163,53 +164,111 @@ get_header();
     <!-- PROJEKTE -->
     <div class="projekte-slider-wrapper" id="home-section-projekte">
         <div class="alignwide">
-            <div class="flex-wrapper intro">
+            <div class="flex-wrapper intro uk-text-center">
                 <div class="col">
                     <strong class="subheadline">Mit Herz und Leidenschaft</strong>
                     <h3 class="is-style-h2">Erfolgreiche Projekte</h3>
                 </div>
             </div>
         </div>
+
         <div class="slider-wrapper referenzen">
-            <div class="slide" id="slide-audioblock" style="background: #161315;">
-                <div class="alignwide">
-                    <div uk-grid>
-                        <div class="img-wrapper uk-width-1-2@m">
-                            <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock-projekt.mp4" playsinline=""></video>
-                            <!--<img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>-->
-                        </div>
-                        <div class="col uk-width-1-2@m">
-                            <div class="projekt-content-wrapper">
-                                <h3 class="is-style-h3 txt-white">Audioblock</h3>
-                                <p>Für den HiFi-Hersteller Audioblock haben wir einen Shop auf Basis von Shopware 6 umgesetzt. Weitere Highlights des Projekts sind die Fachhändlersuche und die zusätzlichen Versandarten "Click & Collect" und "Click & Deliver".</p>
-                                <p>Für den HiFi-Hersteller Audioblock haben wir einen Shop auf Basis von Shopware 6 umgesetzt. Weitere Highlights des Projekts sind die Fachhändlersuche und die zusätzlichen Versandarten "Click & Collect" und "Click & Deliver".</p>
-                                <a href="https://audioblock.de" target="_blank" class="button-plain">www.audioblock.de</a>
-                            </div>
+            <!-- Schmacker -->
+            <div class="slide" id="slide-audioblock" style="background: #ffdc00;">
+                <div class="">
+                    <div class="video-wrapper">
+                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
+                        <div class="referenz-content-wrapper">
+                            <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="slide" id="slide-audioblock" style="background: linear-gradient(#3c3c40 0%, #2d2d2f 100%);">
-                <div class="alignwide">
-                    <div uk-grid>
-                        <div class="img-wrapper uk-width-1-2@m">
-                            <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock-projekt.mp4" playsinline=""></video>
-                            <!--<img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-projekt.png" alt=""/>-->
-                        </div>
-                        <div class="col uk-width-1-2@m">
-                            <div class="projekt-content-wrapper">
-                                <h3 class="is-style-h3 txt-white">Audioblock 2</h3>
-                                <p>Für den HiFi-Hersteller Audioblock haben wir einen Shop auf Basis von Shopware 6 umgesetzt. Weitere Highlights des Projekts sind die Fachhändlersuche und die zusätzlichen Versandarten "Click & Collect" und "Click & Deliver".</p>
-                                <a href="https://audioblock.de" target="_blank" class="button-plain">www.audioblock.de</a>
-                            </div>
+            <!-- Audioblock -->
+            <div class="slide" id="slide-audioblock" style="background: #0f0e0f;">
+                <div class="">
+                    <div class="video-wrapper">
+                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock.mp4" playsinline=""></video>
+                        <div class="referenz-content-wrapper">
+                            <h3 class="is-style-h1-big txt-white">Audioblock.</h3>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- PT Oldenburg -->
+            <div class="slide" id="slide-audioblock" style="background: #f5c518;">
+                <div class="">
+                    <div class="video-wrapper">
+                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/pt-oldenburg.mp4" playsinline=""></video>
+                        <div class="referenz-content-wrapper">
+                            <h3 class="is-style-h1-big txt-white">PT Oldenburg.</h3>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BRUNO -->
+            <div class="slide" id="slide-audioblock" style="background: #f39711;">
+                <div class="">
+                    <div class="video-wrapper">
+                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/bruno.mp4" playsinline=""></video>
+                        <div class="referenz-content-wrapper">
+                            <h3 class="is-style-h1-big txt-white">BRUNO.</h3>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dringenburger -->
+            <div class="slide" id="slide-audioblock" style="background: #cdac72;">
+                <div class="">
+                    <div class="video-wrapper">
+                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
+                        <div class="referenz-content-wrapper">
+                            <h3 class="is-style-h1-big txt-white">Dringenburger.</h3>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stopp & Gabler -->
+            <div class="slide" id="slide-audioblock" style="background: #15a7e3;">
+                <div class="">
+                    <div class="video-wrapper">
+                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/kfo.mp4" playsinline=""></video>
+                        <div class="referenz-content-wrapper">
+                            <h3 class="is-style-h1-big txt-white">Gabler & Stopp.</h3>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trendcom -->
+            <div class="slide" id="slide-audioblock" style="background: #188990;">
+                <div class="">
+                    <div class="video-wrapper">
+                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/trendcom.mp4" playsinline=""></video>
+                        <div class="referenz-content-wrapper">
+                            <h3 class="is-style-h1-big txt-white">Trendcom.</h3>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
-    </div>
+
+
+    </div></div>
 
     <!-- SECTION KUNDEN -->
     <div id="home-section-kunden" class="section">
@@ -219,7 +278,7 @@ get_header();
                     <div class="content-wrapper-small">
                         <strong class="subheadline">Für wen wir arbeiten</strong>
                         <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
-                        <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus den verschiedensten Branchen. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise mit dem ständigen Ziel Großartiges für Sie zu leisten.</p>
+                        <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus verschiedensten Branchen in der Region. Dabei verstehen wir uns als langfristiger Partner. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise.</p>
                         <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
                     </div>
                 </div>
@@ -261,6 +320,18 @@ get_header();
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/stopp-gabler-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
                         </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/bruno-logo.svg" alt="BRUNO - Der Oldenbäcker"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/prasse-logo.svg" alt="Zahnarztpraxis Dres. Prasse"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ldo-logo.svg" alt="Laserzentrum Oldenburg"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/stopp-gabler-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -273,11 +344,8 @@ get_header();
         <div class="alignwide">
             <strong class="subheadline">Wie wir arbeiten</strong>
             <h2 class="is-style-h2">Warum deux websolutions?</h2>
-
         </div>
     </div>
-
-
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -290,7 +358,6 @@ get_header();
             */
 
             $('.slider-wrapper.referenzen').slick({
-                fade: true,
                 dots: true,
                 arrows: true
             });

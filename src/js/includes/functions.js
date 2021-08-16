@@ -62,9 +62,9 @@ jQuery(document).ready(function () {
         backspaceDelay: 3000,
         repeatDelay: 1000,
         strings: [
-            "messbare Ergebnisse.",
-            "zufriedene Kunden.",
-            "neue Technologien."
+            "erfolgreiche Webseiten.",
+            "Shops, die verkaufen.",
+            "effiziente Strategien."
         ],
     });
 
