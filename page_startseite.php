@@ -148,7 +148,14 @@ get_header();
             <div uk-grid class="uk-grid-large uk-flex-middle">
                 <div class="uk-width-1-2@m">
                     <div class="img-wrapper animated">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/ergebnisse.png" alt=""/>
+                        <svg class="herosvg" xmlns="http://www.w3.org/2000/svg" width="812" height="741.361" style="width: 100%; height: auto;" viewBox="0 0 812 741.361">
+                            <defs>
+                                <pattern id="hero-img-2" patternUnits="userSpaceOnUse" x="235" y="205" width="812" height="742">
+                                    <image href="<?php echo get_template_directory_uri(); ?>/img/dennis-deux-unser-antrieb.jpg" width="812" height="742" />
+                                </pattern>
+                            </defs>
+                            <path fill="url(#hero-img-2)" class="herosvg-front" d="M596.218,209.372c125.239-12.826,251.8,35.012,334.714,129.744,87.573,100.054,145.418,241.3,99.149,365.951-42.609,114.8-186.668,132.918-300.79,177.3-96.921,37.692-195.063,91.469-291.73,53.13-103.627-41.1-178.669-138.209-199.1-247.8-19.57-104.962,35.284-202.324,99.234-287.825,67.454-90.186,146.492-179.027,258.527-190.5" transform="translate(-234.434 -207.321)"/>
+                        </svg>
                     </div>
 
                 </div>
