@@ -184,7 +184,7 @@ get_header();
                 <div class="">
                     <div class="video-wrapper">
                         <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
-                        <div class="referenz-content-wrapper">
+                        <div class="referenz-content-wrapper active">
                             <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
                         </div>
@@ -390,9 +390,15 @@ get_header();
                 var old_vid = $('#slick-slide'+("00" + currentSlide).slice(-2)).find('video');
                 $(old_vid).get(0).pause();
 
+                var old_slide = $('#slick-slide'+("00" + currentSlide).slice(-2));
+                $(old_slide).find('.referenz-content-wrapper').removeClass('active');
+
                 var cur_vid = $('#slick-slide'+("00" + nextSlide).slice(-2)).find('video');
                 $(cur_vid).get(0).currentTime = 0;
                 $(cur_vid).get(0).play();
+
+                var cur_slide = $('#slick-slide'+("00" + nextSlide).slice(-2));
+                $(cur_slide).find('.referenz-content-wrapper').addClass('active');
 
 
             });
