@@ -177,7 +177,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #ffdc00;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
+                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
@@ -190,7 +190,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #0f0e0f;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock.mp4" playsinline=""></video>
+                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Audioblock.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
@@ -203,7 +203,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #f5c518;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/pt-oldenburg.mp4" playsinline=""></video>
+                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/pt-oldenburg.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">PT Oldenburg.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
@@ -216,7 +216,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #f39711;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/bruno.mp4" playsinline=""></video>
+                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/bruno.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">BRUNO.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
@@ -229,7 +229,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #cdac72;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
+                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Dringenburger.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
@@ -242,7 +242,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #15a7e3;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/kfo.mp4" playsinline=""></video>
+                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/kfo.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Gabler & Stopp.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
@@ -255,7 +255,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #188990;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" loop="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/trendcom.mp4" playsinline=""></video>
+                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/trendcom.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Trendcom.</h3>
                             <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
@@ -340,39 +340,59 @@ get_header();
 
 
     <!-- WARUM DEUX? -->
-    <div id="home-section-warum-deux" class="section uk-text-center">
+    <div id="home-section-warum-deux" class="section">
         <div class="alignwide">
-            <strong class="subheadline">Wie wir arbeiten</strong>
-            <h2 class="is-style-h2">Warum deux websolutions?</h2>
+            <div class="intro uk-text-center">
+                <strong class="subheadline">Wie wir arbeiten</strong>
+                <h2 class="is-style-h2">Warum deux websolutions?</h2>
+            </div>
+            <div uk-grid class="uk-grid-large">
+                <div class="uk-width-1-3@m with-icon icon-lampe">
+                    <h4 class="is-style-h4">Über 10 Jahre Know-How</h4>
+                    <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>
+                </div>
+                <div class="uk-width-1-3@m with-icon icon-rakete">
+                    <h4 class="is-style-h4">Über den Tellerrand hinaus.</h4>
+                    <p>Manche Probleme erfordern ein Denken Out-of-the-box. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst. Lorem ipsum dolor sit amet consetetur.</p>
+                </div>
+                <div class="uk-width-1-3@m with-icon icon-haende">
+                    <h4 class="is-style-h4">Professionelles Team.</h4>
+                    <p>Als Webagentur in Oldenburg bestehen wir aus einem professionellen Team, das für digitales Marketing brennt und bestrebt darin ist, Sie mit echtem Wachstum zu überzeugen.</p>
+                </div>
+                <div class="uk-width-1-3@m with-icon icon-geld">
+                    <h4 class="is-style-h4">Passend zu Ihrem Budget.</h4>
+                    <p>Wir glauben an Ehrlichkeit, an Integrität und an den Respekt gegenüber unseren Kunden. Wir bieten Ihnen, passend zu Ihrem Budget, individuelle Lösungen für messbare Erfolge.</p>
+                </div>
+                <div class="uk-width-1-3@m with-icon icon-netzwerk">
+                    <h4 class="is-style-h4">Großes Experten-Netzwerk.</h4>
+                    <p>Wir haben uns auf wichtige Leistungen spezialisiert, die viele Probleme lösen können. Sollten wir dennoch an unsere Grenzen stoßen, haben wir ein professionelles Netzwerk das wir nutzen können.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <script type="text/javascript">
         $(document).ready(function () {
-            /*
-            $('.slider-warum-deux').slick({
-                fade: true,
-                prevArrow: $('.slider-warum-deux .slick-arrow-prev'),
-                nextArrow: $('.slider-warum-deux .slick-arrow-next'),
-            });
-            */
 
             $('.slider-wrapper.referenzen').slick({
                 dots: true,
-                arrows: true
+                arrows: true,
             });
 
             $('.slider-wrapper.referenzen').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
 
-                // pause old video (better performance)
-                var old_vid = $('.slider-wrapper.referenzen .slide:eq(' + currentSlide + ')').find('video');
+                var old_vid = $('#slick-slide'+("00" + currentSlide).slice(-2)).find('video');
                 $(old_vid).get(0).pause();
 
-                // play current video from start
-                var cur_vid = $('.slider-wrapper.referenzen .slide:eq(' + nextSlide + ')').find('video');
+                var cur_vid = $('#slick-slide'+("00" + nextSlide).slice(-2)).find('video');
                 $(cur_vid).get(0).currentTime = 0;
                 $(cur_vid).get(0).play();
 
+
+            });
+
+            $('.slider-wrapper.referenzen video').on('ended',function(){
+                $('.slider-wrapper.referenzen').slick("slickNext");
             });
         });
     </script>
