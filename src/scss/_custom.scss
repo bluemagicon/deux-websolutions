@@ -287,7 +287,14 @@
       position: absolute;
       left: 60%;
       top: 50%;
-      transform: translate(0px, -50%);
+      transform: translate(10%, -50%);
+      opacity: 0;
+      transition: all 1.2s;
+      transition-delay: .5s;
+    }
+    .referenz-content-wrapper.active{
+      opacity: 1;
+      transform: translate(0, -50%);
     }
   }
 }
