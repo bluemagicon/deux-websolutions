@@ -17,7 +17,7 @@ get_header();
                         </h3>
                         <!--<p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>-->
                         <p>Deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
-                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                        <a href="#footer-section-contact" class="button-primary">Jetzt Kontakt aufnehmen</a>
                     </div>
 
                 </div>
@@ -53,7 +53,7 @@ get_header();
                                 <li>Technisch hochwertige Ergebnisse</li>
                                 <li>Effiziente Nutzung Ihres Marketingbudgets</li>
                             </ul>
-                            <a href="#ansprechpartner" class="button-primary purple">jetzt kontakt aufnehmen</a>
+                            <a href="#footer-section-contact" class="button-primary purple">jetzt kontakt aufnehmen</a>
                         </div>
                     </div>
                 </div>
@@ -273,13 +273,15 @@ get_header();
     <!-- SECTION KUNDEN -->
     <div id="home-section-kunden" class="section">
         <div class="alignwide">
-            <div uk-grid class="uk-grid-large uk-flex-middle">
-                <div class="uk-width-2-5@m content-wrapper fade-in">
-                    <div class="content-wrapper-small">
+            <div uk-grid class="uk-grid-large">
+                <div class="uk-width-2-5@m">
+                    <div uk-sticky="media: 1200; offset: 100; bottom: true;">
+                    <div class="content-wrapper-small" >
                         <strong class="subheadline">Für wen wir arbeiten</strong>
                         <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
                         <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus verschiedensten Branchen in der Region. Dabei verstehen wir uns als langfristiger Partner. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise.</p>
-                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                        <a href="#footer-section-contact" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                    </div>
                     </div>
                 </div>
                 <div class="uk-width-3-5@m">
@@ -346,7 +348,7 @@ get_header();
                 <strong class="subheadline">Wie wir arbeiten</strong>
                 <h2 class="is-style-h2">Warum deux websolutions?</h2>
             </div>
-            <div uk-grid class="uk-grid-large">
+            <div uk-grid class="uk-grid-large uk-flex-center">
                 <div class="uk-width-1-3@m with-icon icon-lampe">
                     <h4 class="is-style-h4">Über 10 Jahre Know-How</h4>
                     <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>

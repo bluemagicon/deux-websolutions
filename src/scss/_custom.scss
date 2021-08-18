@@ -1,8 +1,4 @@
 /*** GLOBAL ***/
-body {
-  overflow: visibile;
-}
-
 /*** HELPER ***/
 .img-wrapper {
   display: block;
@@ -483,6 +479,28 @@ body {
     .with-icon{
       padding-top: 100px !important;
     }
+  }
+  #home-section-projekte{
+    .slick-slide{
+      padding: 100px 0 50px 0;
+      .video-wrapper{
+        width: 90%;
+        margin: 0 auto 35px auto;
+        video{
+          max-width: inherit;
+          width: 100%;
+        }
+        .referenz-content-wrapper{
+          position: static;
+          transform: none;
+          top: inherit;
+          left: inherit;
+        }
+      }
+    }
+  }
+  .is-style-h1-big{
+    font-size: 2.8em;
   }
 }
 
