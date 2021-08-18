@@ -17,7 +17,7 @@ get_header();
                         </h3>
                         <!--<p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>-->
                         <p>Deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
-                        <a href="#footer" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                        <a href="#footer-section-contact" class="button-primary">Jetzt Kontakt aufnehmen</a>
                     </div>
 
                 </div>
@@ -306,7 +306,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/img/poppen-logo.svg" alt="Poppen Gewächshausbau"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/pt-logo.svg" alt="PT Oldenburg - André Janacek"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/dringenburger-logo.svg" alt="PT Oldenburg - André Janacek"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/bruno-logo.svg" alt="BRUNO - Der Oldenbäcker"/>
@@ -321,16 +321,16 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/img/stopp-gabler-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/bruno-logo.svg" alt="BRUNO - Der Oldenbäcker"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/weberhof-logo.svg" alt="BRUNO - Der Oldenbäcker"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/prasse-logo.svg" alt="Zahnarztpraxis Dres. Prasse"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/trendcom-logo.svg" alt="Zahnarztpraxis Dres. Prasse"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/ldo-logo.svg" alt="Laserzentrum Oldenburg"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/nordenholzer-hof-logo.svg" alt="Laserzentrum Oldenburg"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/stopp-gabler-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ewe-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
                         </div>
                     </div>
                 </div>

@@ -60,7 +60,7 @@ $page_header	= $override_header ?: $global_header;
 
 <body <?php body_class('w-body'); ?>>
 
-    <header class="header" id="header">
+    <header class="" id="header">
         <div class="alignwide">
             <div class="logo-wrapper">
                 <?php include_once 'tpl/partials/logo-function.php'; ?>
