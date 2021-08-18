@@ -17,7 +17,7 @@ get_header();
                         </h3>
                         <!--<p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>-->
                         <p>Deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
-                        <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                        <a href="#footer" class="button-primary">Jetzt Kontakt aufnehmen</a>
                     </div>
 
                 </div>
