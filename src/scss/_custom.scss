@@ -1,8 +1,4 @@
 /*** GLOBAL ***/
-body {
-  overflow: visibile;
-}
-
 /*** HELPER ***/
 .img-wrapper {
   display: block;
@@ -157,8 +153,32 @@ body {
 
 /*** HOME: WARUM DEUX ? ***/
 #home-section-warum-deux {
+  .intro{
+    margin-bottom: 75px;
+  }
   .content-wrapper {
     padding: 50px 50px 0 0;
+  }
+  .with-icon{
+    background-size: 90px auto;
+    background-repeat: no-repeat;
+    background-position: top left 2.5em;
+    padding-top: 1em;
+  }
+  .icon-lampe{
+    background-image: url('../../img/icon-lampe.svg');
+  }
+  .icon-rakete{
+    background-image: url('../../img/icon-rakete.svg');
+  }
+  .icon-haende{
+    background-image: url('../../img/icon-haende.svg');
+  }
+  .icon-geld{
+    background-image: url('../../img/icon-geld.svg');
+  }
+  .icon-netzwerk{
+    background-image: url('../../img/icon-netzwerk.svg');
   }
 }
 
@@ -455,7 +475,33 @@ body {
     }
   }
 
-
+  #home-section-warum-deux{
+    .with-icon{
+      padding-top: 100px !important;
+    }
+  }
+  #home-section-projekte{
+    .slick-slide{
+      padding: 100px 0 50px 0;
+      .video-wrapper{
+        width: 90%;
+        margin: 0 auto 35px auto;
+        video{
+          max-width: inherit;
+          width: 100%;
+        }
+        .referenz-content-wrapper{
+          position: static;
+          transform: none;
+          top: inherit;
+          left: inherit;
+        }
+      }
+    }
+  }
+  .is-style-h1-big{
+    font-size: 2.8em;
+  }
 }
 
 
