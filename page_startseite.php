@@ -13,11 +13,11 @@ get_header();
                     <div class="uk-width-2-5@m">
                         <div class="content-wrapper-small">
                             <h1 class="subheadline">Digitalagentur aus Oldenburg.</h1>
-                            <h3 class="is-style-h1-featured-overflow is-style-h1">Wir entwickeln<br/>
+                            <p class="is-style-h1-featured-overflow is-style-h1">Wir entwickeln<br/>
                                 <span id="hero-typer"></span>
-                            </h3>
+                            </p>
                             <!--<p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>-->
-                            <p>Deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
+                            <p>deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
                             <a href="#footer-section-contact" class="button-primary" id="button-kontakt-hero">Jetzt Kontakt aufnehmen</a>
                         </div>
 
@@ -68,7 +68,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/websites.svg" alt="Websites & Webdesign aus Oldenburg"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <strong>Websites</strong>
+                                        <h3>Websites</h3>
                                         <p>Wir realisieren Webseiten, die Sie in bestem Licht repräsentieren. Mit professionellem Webdesign sorgen wir für hohe Performance und Unterstützung beim Unternehmenswachstum und dem Erreichen Ihrer Ziele.</p>
                                         <!--<a href="#" class="button-plain">mehr über websites</a>-->
                                     </div>
@@ -80,7 +80,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/onlineshops.svg" alt="Onlineshops und E-Commerce"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <strong>Onlineshops</strong>
+                                        <h3>Onlineshops</h3>
                                         <p>Als Experten in der E-Commerce-Webentwicklung beraten wir Sie zum Einsatz verschiedenster Online-Shopsysteme, entwickeln Ihren Shop oder optimieren bestehende Online-Shops.</p>
                                         <!--<a href="#" class="button-plain">mehr über shops</a>-->
                                     </div>
@@ -92,7 +92,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/seo.svg" alt="Suchmaschinenoptimierung (SEO)"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <strong>Suchmaschinen-Optimierung</strong>
+                                        <h3>Suchmaschinen-Optimierung</h3>
                                         <p>Mit fundiertem Expertenwissen und strategischer Vorgehensweise steigern wir die Sichtbarkeit Ihrer Website bei Google und erreichen höhere Positionen für mehr Besucher.</p>
                                         <!--<a href="#" class="button-plain">mehr über seo</a>-->
                                     </div>
@@ -104,7 +104,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/leistung-gads.svg" alt="Google Ads"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <strong>Google Ads</strong>
+                                        <h3>Google Ads</h3>
                                         <!--<p>Wir erstellen, betreuen und optimieren Ihre PPC-Kampagnen und stellen eine effiziente Nutzung bei maximalen Ergebnissen Ihres Budgets sicher.</p>-->
                                         <p>Wir erstellen, betreuen und optimieren Ihre PPC (Pay per Click)-Werbekampagnen und stellen eine effektive Nutzung Ihres Budgets sicher – für Ihren maximalen Erfolg.</p>
                                         <!--<a href="#" class="button-plain">mehr über google ads</a>-->
@@ -117,7 +117,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/schulungen.svg" alt="Schulungen"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <strong>Workshops</strong>
+                                        <h3>Workshops</h3>
                                         <p>Gute Arbeit basiert auf einem tiefgehenden Verständnis Ihrer Anforderungen und Ziele. Für optimale Ergebnisse starten wir Projekte in der Regel mit einem kurzen Workshop, der den konkreten Bedarf erfasst.</p>
                                         <!--<a href="#" class="button-plain">mehr über schulungen</a>-->
                                     </div>
@@ -130,7 +130,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/hosting-support.svg" alt=""/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <strong>Webhosting</strong>
+                                        <h3>Webhosting</h3>
                                         <p>Wir stellen für unsere Kunden Webspace zur Verfügung. Sie profitieren dabei von zuverlässiger Erreichbarkeit, hohen Ladegeschwindigkeiten und erstklassigem Service rund um Webseite und E-Mails.</p>
                                         <!--<a href="#" class="button-plain">mehr zum thema</a>-->
                                     </div>
@@ -187,7 +187,7 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper active">
                                 <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
-                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                                <!--<a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>-->
                             </div>
                         </div>
                     </div>
@@ -214,11 +214,11 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">Audioblock.</h3>
-                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                                <!--<a uk-toggle="target: #details-audioblock" class="button-plain">Projekt-Details +</a>-->
                             </div>
                         </div>
                     </div>
-                    <div id="details-schmacker" uk-modal>
+                    <div id="details-audioblock" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Audioblock</h2>
@@ -241,11 +241,11 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/pt-oldenburg.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">PT Oldenburg.</h3>
-                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                                <!--<a uk-toggle="target: #details-pt-oldenburg" class="button-plain">Projekt-Details +</a>-->
                             </div>
                         </div>
                     </div>
-                    <div id="details-schmacker" uk-modal>
+                    <div id="details-pt-oldenburg" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">PT Oldenburg</h2>
@@ -268,11 +268,11 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/bruno.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">BRUNO.</h3>
-                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                                <!--<a uk-toggle="target: #details-bruno" class="button-plain">Projekt-Details +</a>-->
                             </div>
                         </div>
                     </div>
-                    <div id="details-schmacker" uk-modal>
+                    <div id="details-bruno" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Bruno</h2>
@@ -295,11 +295,11 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">Dringenburger.</h3>
-                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                                <!--<a uk-toggle="target: #details-dringenburger" class="button-plain">Projekt-Details +</a>-->
                             </div>
                         </div>
                     </div>
-                    <div id="details-schmacker" uk-modal>
+                    <div id="details-dringenburger" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Dringenburger</h2>
@@ -322,11 +322,11 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/kfo.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">Gabler & Stopp.</h3>
-                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                                <!--<a uk-toggle="target: #details-stopp-gabler" class="button-plain">Projekt-Details +</a>-->
                             </div>
                         </div>
                     </div>
-                    <div id="details-schmacker" uk-modal>
+                    <div id="details-stopp-gabler" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Gabler & Stopp</h2>
@@ -349,11 +349,11 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/trendcom.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">Trendcom.</h3>
-                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                                <!--<a uk-toggle="target: #details-trendcom" class="button-plain">Projekt-Details +</a>-->
                             </div>
                         </div>
                     </div>
-                    <div id="details-schmacker" uk-modal>
+                    <div id="details-trendcom" uk-modal>
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Trendcom</h2>
