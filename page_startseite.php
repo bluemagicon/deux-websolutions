@@ -68,7 +68,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/websites.svg" alt="Websites & Webdesign aus Oldenburg"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <h3>Websites</h3>
+                                        <h3 class="is-style-h3 txt-white">Websites</h3>
                                         <p>Wir realisieren Webseiten, die Sie in bestem Licht repräsentieren. Mit professionellem Webdesign sorgen wir für hohe Performance und Unterstützung beim Unternehmenswachstum und dem Erreichen Ihrer Ziele.</p>
                                         <!--<a href="#" class="button-plain">mehr über websites</a>-->
                                     </div>
@@ -80,7 +80,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/onlineshops.svg" alt="Onlineshops und E-Commerce"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <h3>Onlineshops</h3>
+                                        <h3 class="is-style-h3 txt-white">Onlineshops</h3>
                                         <p>Als Experten in der E-Commerce-Webentwicklung beraten wir Sie zum Einsatz verschiedenster Online-Shopsysteme, entwickeln Ihren Shop oder optimieren bestehende Online-Shops.</p>
                                         <!--<a href="#" class="button-plain">mehr über shops</a>-->
                                     </div>
@@ -92,7 +92,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/seo.svg" alt="Suchmaschinenoptimierung (SEO)"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <h3>Suchmaschinen-Optimierung</h3>
+                                        <h3 class="is-style-h3 txt-white">Suchmaschinen-Optimierung</h3>
                                         <p>Mit fundiertem Expertenwissen und strategischer Vorgehensweise steigern wir die Sichtbarkeit Ihrer Website bei Google und erreichen höhere Positionen für mehr Besucher.</p>
                                         <!--<a href="#" class="button-plain">mehr über seo</a>-->
                                     </div>
@@ -104,7 +104,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/leistung-gads.svg" alt="Google Ads"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <h3>Google Ads</h3>
+                                        <h3 class="is-style-h3 txt-white">Google Ads</h3>
                                         <!--<p>Wir erstellen, betreuen und optimieren Ihre PPC-Kampagnen und stellen eine effiziente Nutzung bei maximalen Ergebnissen Ihres Budgets sicher.</p>-->
                                         <p>Wir erstellen, betreuen und optimieren Ihre PPC (Pay per Click)-Werbekampagnen und stellen eine effektive Nutzung Ihres Budgets sicher – für Ihren maximalen Erfolg.</p>
                                         <!--<a href="#" class="button-plain">mehr über google ads</a>-->
@@ -117,7 +117,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/schulungen.svg" alt="Schulungen"/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <h3>Workshops</h3>
+                                        <h3 class="is-style-h3 txt-white">Workshops</h3>
                                         <p>Gute Arbeit basiert auf einem tiefgehenden Verständnis Ihrer Anforderungen und Ziele. Für optimale Ergebnisse starten wir Projekte in der Regel mit einem kurzen Workshop, der den konkreten Bedarf erfasst.</p>
                                         <!--<a href="#" class="button-plain">mehr über schulungen</a>-->
                                     </div>
@@ -130,7 +130,7 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/hosting-support.svg" alt=""/>
                                     </div>
                                     <div class="content-wrapper">
-                                        <h3>Webhosting</h3>
+                                        <h3 class="is-style-h3 txt-white">Webhosting</h3>
                                         <p>Wir stellen für unsere Kunden Webspace zur Verfügung. Sie profitieren dabei von zuverlässiger Erreichbarkeit, hohen Ladegeschwindigkeiten und erstklassigem Service rund um Webseite und E-Mails.</p>
                                         <!--<a href="#" class="button-plain">mehr zum thema</a>-->
                                     </div>
