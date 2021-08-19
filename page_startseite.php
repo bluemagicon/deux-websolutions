@@ -186,8 +186,15 @@ get_header();
                         <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper active">
                             <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
-                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                            <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
                         </div>
+                    </div>
+                </div>
+                <div id="details-schmacker" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h2 class="is-style-h2">Schmacker</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
