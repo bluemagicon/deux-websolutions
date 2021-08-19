@@ -568,7 +568,8 @@
   }
   #home-section-warum-deux{
     .with-icon{
-      padding: 1em 0 0 4em;
+      padding: 90px 0 0 0;
+      background-size: 75px auto;
     }
   }
 }
@@ -676,12 +677,6 @@
   }
   input, select, textarea{
     padding: 1em;
-  }
-  #home-section-warum-deux{
-    .with-icon{
-      padding: 90px 0 0 0;
-      background-size: 75px auto;
-    }
   }
 }
 
