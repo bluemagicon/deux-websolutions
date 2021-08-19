@@ -18,7 +18,7 @@ get_header();
                             </h3>
                             <!--<p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>-->
                             <p>Deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
-                            <a href="#footer-section-contact" class="button-primary" id="kontakt-btn-hero">Jetzt Kontakt aufnehmen</a>
+                            <a href="#footer-section-contact" class="button-primary" id="button-kontakt-hero">Jetzt Kontakt aufnehmen</a>
                         </div>
 
                     </div>
@@ -54,7 +54,7 @@ get_header();
                                     <li>Technisch hochwertige Ergebnisse</li>
                                     <li>Effiziente Nutzung Ihres Marketingbudgets</li>
                                 </ul>
-                                <a href="#footer-section-contact" class="button-primary purple" id="kontakt-btn-leistungen">Jetzt Kontakt aufnehmen</a>
+                                <a href="#footer-section-contact" class="button-primary purple" id="button-kontakt-leistungen">Jetzt Kontakt aufnehmen</a>
                             </div>
                         </div>
                     </div>
@@ -386,7 +386,7 @@ get_header();
                                 <strong class="subheadline">Für wen wir arbeiten</strong>
                                 <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
                                 <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus verschiedensten Branchen in der Region. Dabei verstehen wir uns als langfristiger Partner. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise.</p>
-                                <a href="#footer-section-contact" class="button-primary" id="kontakt-btn-kunden">Jetzt Kontakt aufnehmen</a>
+                                <a href="#footer-section-contact" class="button-primary" id="button-kontakt-kunden">Jetzt Kontakt aufnehmen</a>
                             </div>
                         </div>
                     </div>

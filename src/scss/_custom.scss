@@ -187,7 +187,7 @@
   .slick-slider:after{
     content: '';
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -584,6 +584,26 @@
   .section {
     margin: 10vh 0;
   }
+  #home-section-projekte .slick-slide{
+    overflow: hidden;
+    &:after{
+      height: 50px;
+    }
+    .video-wrapper{
+      width: 100%;
+      .referenz-content-wrapper h3,
+      .referenz-content-wrapper a{
+        text-align: center;
+        justify-content: center;
+      }
+      video{
+        width: 120%;
+        margin-left: -10%;
+      }
+    }
+  }
+
+  #home-section-projekte .slick-slide
   #home-section-hero {
     &:after {
       width: 95vw;
