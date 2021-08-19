@@ -509,6 +509,13 @@
   .is-style-h1-big{
     font-size: 2.8em;
   }
+  #home-section-hero{
+    margin-bottom: 0;
+  }
+  #home-section-leistungen{
+    margin-top: 10vh;
+    padding-top: 0;
+  }
 }
 
 
@@ -537,6 +544,12 @@
 }
 
 @media(max-width: $breakpoint-small) {
+  .is-style-h1, .w-h1, h1{
+    font-size: 1.8em;
+  }
+  .is-style-h2, .w-h2, h2{
+    font-size: 1.5em;
+  }
   .section {
     margin: 10vh 0;
   }
@@ -602,13 +615,16 @@
     }
 
     .flex-wrapper {
-      &.datenschutz-submit {
-        display: block;
-
+      &:nth-child(5){
+        flex-direction: column !important;
+        align-items: flex-start;
         label {
           width: 100%;
           display: block;
           padding: 10px 0;
+          span{
+            width: 100%;
+          }
         }
       }
     }
@@ -627,6 +643,9 @@
         }
       }
     }
+  }
+  input, select, textarea{
+    padding: 1em;
   }
 }
 

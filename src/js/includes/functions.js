@@ -16,8 +16,8 @@ function myFunction() {
 }
 
 ScrollReveal().reveal('.fade-in',{
-    delay: 400,
-    duration: 1200,
+    delay: 200,
+    duration: 900,
     distance: '30px',
     easing: 'cubic-bezier(.77,.18,.36,.95)'
 });
@@ -99,8 +99,6 @@ jQuery(document).ready(function () {
     // -----------------------------------------------
 
 });
-
-
 
 function scrollTo(target)
 {

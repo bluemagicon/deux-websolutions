@@ -57,10 +57,7 @@ $page_support	= $override_support ?: $global_support;
         </div>
 
     </div>
-
-
 </div>
-
 
 <footer id="footer">
 	<div class="alignwide">
@@ -80,7 +77,6 @@ $page_support	= $override_support ?: $global_support;
         </div>
     </div>
 </footer>
-
 <?php
 include 'tpl/partials/offcanvas.php';
 wp_footer() ;
