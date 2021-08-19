@@ -39,7 +39,8 @@
     "scrollreveal": "latest",
     "swiper": "latest",
     "typer.js": "^1.2.1",
-    "uikit": "latest"
+    "uikit": "latest",
+    "waypoints": "^4.0.1"
   },
   "browserslist": [
     "Explorer >= 11",

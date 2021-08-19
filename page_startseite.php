@@ -183,7 +183,7 @@ get_header();
             <div class="slide" id="slide-audioblock" style="background: #ffdc00;">
                 <div class="">
                     <div class="video-wrapper">
-                        <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
+                        <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper active">
                             <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
                             <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>

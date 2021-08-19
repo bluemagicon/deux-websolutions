@@ -98,6 +98,15 @@ jQuery(document).ready(function () {
     // -----------------------------------------------
     // -----------------------------------------------
 
+    var waypoint = new Waypoint({
+        element: document.getElementById('home-section-projekte'),
+        handler: function(direction) {
+            var vid = $('#slick-slide00').find('video');
+            $(vid).get(0).play();
+            this.destroy();
+        }
+    })
+
 });
 
 function scrollTo(target)
