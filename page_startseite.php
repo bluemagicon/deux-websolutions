@@ -410,18 +410,18 @@ get_header();
                     </div>
                 </div>
                 <div class="uk-width-3-5@m">
-                    <div uk-grid class="kundenlogos uk-grid-medium uk-child-width-1-3 uk-child-width-1-3@m uk-child-width-1-4@xl">
+                    <div uk-grid class="kundenlogos uk-grid-medium uk-child-width-1-3 uk-child-width-1-4@l">
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/audioblock-logo.svg" alt="Audioblock"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/cwm-logo.svg" alt="Carl Wilhelm Meyer"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/nordenholzer-hof-logo.svg" alt="Laserzentrum Oldenburg"/>
+                        </div>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/trendcom-logo.svg" alt="trendcom"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/siemer-logo.svg" alt="Siemer Treppenlifte"/>
-                        </div>
-                        <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/ife-logo.svg" alt="IFE Eriksen"/>
                         </div>
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/buefa-logo.svg" alt="BÜFA"/>
@@ -447,17 +447,17 @@ get_header();
                         <div class="logo img-wrapper uk-flex uk-flex-middle">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/stopp-gabler-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
                         </div>
-                        <div class="logo img-wrapper uk-flex uk-flex-middle">
+                        <div class="logo img-wrapper uk-flex uk-flex-middle uk-visible@l">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/weberhof-logo.svg" alt="BRUNO - Der Oldenbäcker"/>
                         </div>
-                        <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/trendcom-logo.svg" alt="Zahnarztpraxis Dres. Prasse"/>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle uk-visible@l">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ife-logo.svg" alt="IFE Eriksen"/>
                         </div>
-                        <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/nordenholzer-hof-logo.svg" alt="Laserzentrum Oldenburg"/>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle uk-visible@l">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/cwm-logo.svg" alt="Carl Wilhelm Meyer"/>
                         </div>
-                        <div class="logo img-wrapper uk-flex uk-flex-middle">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/ewe-logo.svg" alt="Kieferorthopädische Praxis Stopp & Gabler"/>
+                        <div class="logo img-wrapper uk-flex uk-flex-middle uk-visible@l">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ewe-logo.svg" alt="EWE Baskets"/>
                         </div>
                     </div>
                 </div>
