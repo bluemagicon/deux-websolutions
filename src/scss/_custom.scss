@@ -162,8 +162,8 @@
   .with-icon{
     background-size: 90px auto;
     background-repeat: no-repeat;
-    background-position: top left 2.5em;
-    padding-top: 1em;
+    background-position: top left;
+    padding: 1em 0 0 3.5em;
   }
   .icon-lampe{
     background-image: url('../../img/icon-lampe.svg');
@@ -467,6 +467,31 @@
   }
 }
 
+//MODAL
+.uk-modal{
+  z-index: 99999 !important;
+}
+.uk-modal-body{
+  .is-style-h5.small-margin{
+    margin-bottom: -8px;
+  }
+}
+.leistungen-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  span{
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 0.9em;
+    color: #fff;
+    background: $w-color-primary;
+    font-weight: 500;
+    border-radius: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 
 @media(max-width: $breakpoint-xlarge) {
 
@@ -484,7 +509,7 @@
 
   #home-section-warum-deux{
     .with-icon{
-      padding-top: 100px !important;
+      padding: 1.5em 0 0 4.5em;
     }
   }
   #home-section-projekte{
@@ -539,6 +564,11 @@
           padding: 20px 5%;
         }
       }
+    }
+  }
+  #home-section-warum-deux{
+    .with-icon{
+      padding: 1em 0 0 4em;
     }
   }
 }
@@ -646,6 +676,12 @@
   }
   input, select, textarea{
     padding: 1em;
+  }
+  #home-section-warum-deux{
+    .with-icon{
+      padding: 90px 0 0 0;
+      background-size: 75px auto;
+    }
   }
 }
 

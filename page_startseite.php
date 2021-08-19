@@ -17,7 +17,7 @@ get_header();
                         </h3>
                         <!--<p>deux websolutions ist eine Digitalagentur für digitales Marketing in Oldenburg. Wir nutzen unsere Expertise, um Ihr Unternehmen beim Wachsen zu unterstützen.</p>-->
                         <p>Deux websolutions ist eine Werbeagentur für digitales Marketing in Oldenburg. Unser Antrieb sind erfolgreiche, effizient und nachhaltig umgesetzte Online-Projekte.</p>
-                        <a href="#footer-section-contact" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                        <a href="#footer-section-contact" class="button-primary" id="kontakt-btn-hero">Jetzt Kontakt aufnehmen</a>
                     </div>
 
                 </div>
@@ -53,7 +53,7 @@ get_header();
                                 <li>Technisch hochwertige Ergebnisse</li>
                                 <li>Effiziente Nutzung Ihres Marketingbudgets</li>
                             </ul>
-                            <a href="#ansprechpartner" class="button-primary purple">jetzt kontakt aufnehmen</a>
+                            <a href="#footer-section-contact" class="button-primary purple" id="kontakt-btn-leistungen">Jetzt Kontakt aufnehmen</a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +194,17 @@ get_header();
                     <div class="uk-modal-dialog uk-modal-body">
                         <button class="uk-modal-close-default" type="button" uk-close></button>
                         <h2 class="is-style-h2">Schmacker</h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <h5 class="is-style-h5 small-margin">Projekt</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <h5 class="is-style-h5">Leistungen:</h5>
+                        <div class="leistungen-buttons">
+                            <span>Webdesign</span>
+                            <span>Wordpress</span>
+                            <span>Hosting</span>
+                            <span>SEO</span>
+                            <span>SEA</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -206,7 +216,24 @@ get_header();
                         <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Audioblock.</h3>
-                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                            <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="details-schmacker" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h2 class="is-style-h2">Audioblock</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <h5 class="is-style-h5 small-margin">Projekt</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <h5 class="is-style-h5">Leistungen:</h5>
+                        <div class="leistungen-buttons">
+                            <span>Webdesign</span>
+                            <span>Wordpress</span>
+                            <span>Hosting</span>
+                            <span>SEO</span>
+                            <span>SEA</span>
                         </div>
                     </div>
                 </div>
@@ -219,7 +246,24 @@ get_header();
                         <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/pt-oldenburg.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">PT Oldenburg.</h3>
-                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                            <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="details-schmacker" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h2 class="is-style-h2">PT Oldenburg</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <h5 class="is-style-h5 small-margin">Projekt</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <h5 class="is-style-h5">Leistungen:</h5>
+                        <div class="leistungen-buttons">
+                            <span>Webdesign</span>
+                            <span>Wordpress</span>
+                            <span>Hosting</span>
+                            <span>SEO</span>
+                            <span>SEA</span>
                         </div>
                     </div>
                 </div>
@@ -232,7 +276,24 @@ get_header();
                         <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/bruno.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">BRUNO.</h3>
-                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                            <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="details-schmacker" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h2 class="is-style-h2">Bruno</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <h5 class="is-style-h5 small-margin">Projekt</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <h5 class="is-style-h5">Leistungen:</h5>
+                        <div class="leistungen-buttons">
+                            <span>Webdesign</span>
+                            <span>Wordpress</span>
+                            <span>Hosting</span>
+                            <span>SEO</span>
+                            <span>SEA</span>
                         </div>
                     </div>
                 </div>
@@ -245,7 +306,24 @@ get_header();
                         <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Dringenburger.</h3>
-                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                            <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="details-schmacker" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h2 class="is-style-h2">Dringenburger</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <h5 class="is-style-h5 small-margin">Projekt</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <h5 class="is-style-h5">Leistungen:</h5>
+                        <div class="leistungen-buttons">
+                            <span>Webdesign</span>
+                            <span>Wordpress</span>
+                            <span>Hosting</span>
+                            <span>SEO</span>
+                            <span>SEA</span>
                         </div>
                     </div>
                 </div>
@@ -258,7 +336,24 @@ get_header();
                         <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/kfo.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Gabler & Stopp.</h3>
-                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                            <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="details-schmacker" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h2 class="is-style-h2">Gabler & Stopp</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <h5 class="is-style-h5 small-margin">Projekt</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <h5 class="is-style-h5">Leistungen:</h5>
+                        <div class="leistungen-buttons">
+                            <span>Webdesign</span>
+                            <span>Wordpress</span>
+                            <span>Hosting</span>
+                            <span>SEO</span>
+                            <span>SEA</span>
                         </div>
                     </div>
                 </div>
@@ -271,7 +366,24 @@ get_header();
                         <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/trendcom.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper">
                             <h3 class="is-style-h1-big txt-white">Trendcom.</h3>
-                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
+                            <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="details-schmacker" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h2 class="is-style-h2">Trendcom</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <h5 class="is-style-h5 small-margin">Projekt</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                        <h5 class="is-style-h5">Leistungen:</h5>
+                        <div class="leistungen-buttons">
+                            <span>Webdesign</span>
+                            <span>Wordpress</span>
+                            <span>Hosting</span>
+                            <span>SEO</span>
+                            <span>SEA</span>
                         </div>
                     </div>
                 </div>
@@ -293,7 +405,7 @@ get_header();
                             <strong class="subheadline">Für wen wir arbeiten</strong>
                             <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
                             <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus verschiedensten Branchen in der Region. Dabei verstehen wir uns als langfristiger Partner. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise.</p>
-                            <a href="#ansprechpartner" class="button-primary">Jetzt Kontakt aufnehmen</a>
+                            <a href="#footer-section-contact" class="button-primary" id="kontakt-btn-kunden">Jetzt Kontakt aufnehmen</a>
                         </div>
                     </div>
                 </div>
@@ -362,25 +474,35 @@ get_header();
                 <h2 class="is-style-h2">Warum deux websolutions?</h2>
             </div>
             <div uk-grid class="uk-grid-large uk-flex-center">
-                <div class="uk-width-1-3@m with-icon icon-lampe fade-in">
-                    <h4 class="is-style-h4">Über 10 Jahre Know-How</h4>
-                    <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>
+                <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="wrapper with-icon icon-lampe">
+                        <h4 class="is-style-h4">Über 10 Jahre Know-How</h4>
+                        <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>
+                    </div>
                 </div>
-                <div class="uk-width-1-3@m with-icon icon-rakete fade-in">
-                    <h4 class="is-style-h4">Über den Tellerrand hinaus.</h4>
-                    <p>Manche Probleme erfordern ein Denken Out-of-the-box. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst. Lorem ipsum dolor sit amet consetetur.</p>
+                <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="wrapper with-icon icon-rakete">
+                        <h4 class="is-style-h4">Über den Tellerrand hinaus.</h4>
+                        <p>Manche Probleme erfordern ein Denken Out-of-the-box. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst. Lorem ipsum dolor sit amet consetetur.</p>
+                    </div>
                 </div>
-                <div class="uk-width-1-3@m with-icon icon-haende fade-in">
-                    <h4 class="is-style-h4">Professionelles Team.</h4>
-                    <p>Als Webagentur in Oldenburg bestehen wir aus einem professionellen Team, das für digitales Marketing brennt und bestrebt darin ist, Sie mit echtem Wachstum zu überzeugen.</p>
+                <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="wrapper with-icon icon-haende">
+                        <h4 class="is-style-h4">Professionelles Team.</h4>
+                        <p>Als Webagentur in Oldenburg bestehen wir aus einem professionellen Team, das für digitales Marketing brennt und bestrebt darin ist, Sie mit echtem Wachstum zu überzeugen.</p>
+                    </div>
                 </div>
-                <div class="uk-width-1-3@m with-icon icon-geld fade-in">
-                    <h4 class="is-style-h4">Passend zu Ihrem Budget.</h4>
-                    <p>Wir glauben an Ehrlichkeit, an Integrität und an den Respekt gegenüber unseren Kunden. Wir bieten Ihnen, passend zu Ihrem Budget, individuelle Lösungen für messbare Erfolge.</p>
+                <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="wrapper with-icon icon-geld">
+                        <h4 class="is-style-h4">Passend zu Ihrem Budget.</h4>
+                        <p>Wir glauben an Ehrlichkeit, an Integrität und an den Respekt gegenüber unseren Kunden. Wir bieten Ihnen, passend zu Ihrem Budget, individuelle Lösungen für messbare Erfolge.</p>
+                    </div>
                 </div>
-                <div class="uk-width-1-3@m with-icon icon-netzwerk fade-in">
-                    <h4 class="is-style-h4">Großes Experten-Netzwerk.</h4>
-                    <p>Wir haben uns auf wichtige Leistungen spezialisiert, die viele Probleme lösen können. Sollten wir dennoch an unsere Grenzen stoßen, haben wir ein professionelles Netzwerk das wir nutzen können.</p>
+                <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="wrapper with-icon icon-netzwerk">
+                        <h4 class="is-style-h4">Großes Experten-Netzwerk.</h4>
+                        <p>Wir haben uns auf wichtige Leistungen spezialisiert, die viele Probleme lösen können. Sollten wir dennoch an unsere Grenzen stoßen, haben wir ein professionelles Netzwerk das wir nutzen können.</p>
+                    </div>
                 </div>
             </div>
         </div>
