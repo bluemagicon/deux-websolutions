@@ -186,14 +186,8 @@ get_header();
                         <video autoplay="" muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker-referenz.mp4" playsinline=""></video>
                         <div class="referenz-content-wrapper active">
                             <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
-                            <a uk-toggle="target: #my-id" class="button-plain">Projekt-Details +</a>
+                            <a href="#" target="_blank" class="button-plain">Projekt-Details +</a>
                         </div>
-                    </div>
-                </div>
-                <div id="my-id" uk-modal>
-                    <div class="uk-modal-dialog uk-modal-body">
-                        <button class="uk-modal-close-default" type="button" uk-close></button>
-                        <h2 class="uk-modal-title">Test</h2>
                     </div>
                 </div>
             </div>
@@ -238,7 +232,7 @@ get_header();
             </div>
 
             <!-- Dringenburger -->
-            <div class="slide" id="slide-audioblock" style="background: rgb(205, 172, 114);">
+            <div class="slide" id="slide-audioblock" style="background: #cdac72;">
                 <div class="">
                     <div class="video-wrapper">
                         <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
