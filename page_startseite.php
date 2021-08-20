@@ -386,7 +386,7 @@ get_header();
                                 <strong class="subheadline">Für wen wir arbeiten</strong>
                                 <h2 class="is-style-h2">Individuelle Lösungen für Oldenburger Unternehmen.</h2>
                                 <p>Wir erbringen eine breite Palette an kreativen Online Marketing Dienstleistungen für Unternehmen aus verschiedensten Branchen in der Region. Dabei verstehen wir uns als langfristiger Partner. Unsere Kunden schätzen unsere vertrauensvolle und transparente Arbeitsweise.</p>
-                                <a href="#footer-section-contact" class="button-primary" id="button-kontakt-kunden">Jetzt Kontakt aufnehmen</a>
+                                <a href="#footer-section-contact" class="button-primary uk-visible@s" id="button-kontakt-kunden">Jetzt Kontakt aufnehmen</a>
                             </div>
                         </div>
                     </div>

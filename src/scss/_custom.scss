@@ -194,7 +194,7 @@
     background-image: url(../../img/schwung-video.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 999;
+    z-index: 9;
 
   }
   .slick-dots {
@@ -570,6 +570,8 @@
     .with-icon{
       padding: 90px 0 0 0;
       background-size: 75px auto;
+      background-position: top center;
+      text-align: center;
     }
   }
 }
@@ -697,6 +699,13 @@
   }
   input, select, textarea{
     padding: 1em;
+  }
+  #home-section-projekte{
+    .intro{
+      margin-bottom: -50px;
+      z-index: 99;
+      position: relative;
+    }
   }
 }
 
