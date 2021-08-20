@@ -187,7 +187,7 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper active">
                                 <h3 class="is-style-h1-big txt-white">Schmacker.</h3>
-                                <!--<a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>-->
+                                <a uk-toggle="target: #details-schmacker" class="button-plain">Projekt-Details +</a>
                             </div>
                         </div>
                     </div>
@@ -464,7 +464,7 @@ get_header();
                     <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
                         <div class="wrapper with-icon icon-rakete">
                             <h4 class="is-style-h4">Out-of-the-box denken.</h4>
-                            <p>Manche Probleme erfordern ein Denken Out-of-the-box. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst.</p>
+                            <p>Manche Probleme erfordern ein Out-of-the-box Denken. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst.</p>
                         </div>
                     </div>
                     <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
