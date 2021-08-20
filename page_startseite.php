@@ -457,14 +457,14 @@ get_header();
                 <div uk-grid class="uk-grid-large uk-flex-center">
                     <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
                         <div class="wrapper with-icon icon-lampe">
-                            <h4 class="is-style-h4">Über 10 Jahre Know-How</h4>
+                            <h4 class="is-style-h4">Über 10 Jahre Know-How.</h4>
                             <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>
                         </div>
                     </div>
                     <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
                         <div class="wrapper with-icon icon-rakete">
-                            <h4 class="is-style-h4">Über den Tellerrand hinaus.</h4>
-                            <p>Manche Probleme erfordern ein Denken Out-of-the-box. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst. Lorem ipsum dolor sit amet consetetur.</p>
+                            <h4 class="is-style-h4">Out-of-the-box denken.</h4>
+                            <p>Manche Probleme erfordern ein Denken Out-of-the-box. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst.</p>
                         </div>
                     </div>
                     <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
