@@ -48,7 +48,7 @@ $page_support	= $override_support ?: $global_support;
         </div>
 
         <div class="uk-width-1-2@m">
-            <p class="adress"><strong>Deux Websolutions GmbH</strong> <span class="space-dot"> </span> Im Kleigrund 5a, 26135 Oldenburg</p>
+            <p class="adress"><strong>deux websolutions</strong> <span class="space-dot"> </span> Im Kleigrund 5a, 26135 Oldenburg</p>
             <p class="contact">
                 <a href="mailto:info@deux.de">info@deux.de</a>
                 <a href="tel:+4944193658002">0441 936 580 02</a>
