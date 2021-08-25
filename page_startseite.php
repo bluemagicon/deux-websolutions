@@ -47,7 +47,7 @@ get_header();
                             <div class="content-wrapper-small">
                                 <strong class="subheadline">Was wir anbieten</strong>
                                 <h2 class="is-style-h2">Unsere Leistungen.</h2>
-                                <p>Unser Leistungsspektrum umfasst sämtliche Online Marketing-Strategien und -Maßnahmen, die Ihr Unternehmen beim Wachstum unterstützen. Mit unserer Kreativität und aktuellem technischen Know How unterstützen wie Sie in allen Online-Themen.</p>
+                                <p>Unser Leistungsspektrum umfasst sämtliche Online Marketing-Strategien und -Maßnahmen, die Ihr Unternehmen beim Wachstum unterstützen. Mit unserer Kreativität und aktuellem technischen Know How unterstützen wir Sie in allen Online-Themen.</p>
                                 <ul class="content-list">
                                     <li>Moderne Ästhetik und ansprechendes Design</li>
                                     <li>Wirkungsvolle Nutzererfahrung</li>
