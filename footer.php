@@ -34,7 +34,7 @@ $page_support	= $override_support ?: $global_support;
             <div class="content-wrapper">
                 <strong class="subheadline">Jetzt Kontakt aufnehmen</strong>
                 <h2 class="is-style-h2">Was dürfen wir für Sie tun?</h2>
-                <div class="vcard fade-in">
+                <div class="vcard">
                     <div class="logo-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/deux-websolutions-icon.svg" alt="" />
                     </div>

@@ -1,4 +1,8 @@
 /*** GLOBAL ***/
+.grecaptcha-badge{
+  display: none !important;
+}
+
 /*** HELPER ***/
 .img-wrapper {
   display: block;
@@ -439,6 +443,27 @@
     &.half {
       span {
         width: 49%;
+        &.datenschutz{
+          width: inherit;
+          flex-grow: 2;
+          .wpcf7-form-control,
+          .wpcf7-list-item{
+            width: 100%;
+            margin-left: 0;
+            label{
+              width: 100%;
+              display: flex;
+              align-items: center;
+              line-height: 1.2;
+              span{
+                width: inherit;
+              }
+              input{
+                margin-right: 20px;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -472,6 +497,10 @@
   z-index: 99999 !important;
 }
 .uk-modal-body{
+  width: 800px !important;
+  p{
+    font-size: 0.9em;
+  }
   .is-style-h5.small-margin{
     margin-bottom: -8px;
   }
@@ -540,6 +569,21 @@
   #home-section-leistungen{
     margin-top: 10vh;
     padding-top: 0;
+    .uk-grid{
+      align-items: inherit;
+      display: flex;
+      >div{
+        transform: translate(0) !important;
+        .teaser{
+          height: 100%;
+          .img-wrapper{
+            height: 175px;
+            display: flex;
+            align-items: flex-end;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -668,6 +712,9 @@
     }
 
     .flex-wrapper {
+      .datenschutz{
+        margin-top: 1.2rem;
+      }
       &:nth-child(5){
         flex-direction: column !important;
         align-items: flex-start;

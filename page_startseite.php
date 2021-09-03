@@ -181,7 +181,7 @@ get_header();
 
             <div class="slider-wrapper referenzen">
                 <!-- Schmacker -->
-                <div class="slide" id="slide-audioblock" style="background: #ffdc00;">
+                <div class="slide" id="slide-schmacker" style="background: #ffdc00;">
                     <div class="">
                         <div class="video-wrapper">
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/schmacker.mp4" playsinline=""></video>
@@ -195,13 +195,12 @@ get_header();
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Schmacker</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>Die Firma Schmacker ist weit über die Grenzen Oldenburgs bekannt – vorrangig als Gerüstbauer. Der Familienbetrieb in mittlerweile dritter Generation wurde als Malereibetrieb gegründet, später vervollständigte die Dämmtechnik die geballte Kompetenz anspruchsvoller Handwerksarbeiten rund um den Bau.</p>
                             <h5 class="is-style-h5 small-margin">Projekt</h5>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>Diese drei Geschäftsbereiche sollten auf der Website übersichtlich und modern präsentiert werden. Ohne sich in fachliche Tiefen zu verlieren, sollten trotzdem die Kernleistungen und besondere Schlüsselthemen zu finden sein. Besonderer Clou: der virtuelle 3D-Rundgang, bei dem sich Kunden und Bewerber einen Einblick in die Räumlichkeiten und über das Team verschaffen können – ein wichtiger Aspekt in der Mitarbeitergewinnung, die wir mit einer einfachen Bewerbungsmöglichkeit unterstützen.</p>
                             <h5 class="is-style-h5">Leistungen:</h5>
                             <div class="leistungen-buttons">
-                                <span>Webdesign</span> <span>Wordpress</span> <span>Hosting</span> <span>SEO</span>
-                                <span>SEA</span>
+                                <span>Konzeption</span><span>Webdesign</span><span>Wordpress</span><span>Hosting</span><span>SEO</span>
                             </div>
                         </div>
                     </div>
@@ -214,7 +213,7 @@ get_header();
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/audioblock.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">Audioblock.</h3>
-                                <!--<a uk-toggle="target: #details-audioblock" class="button-plain">Projekt-Details +</a>-->
+                                <a uk-toggle="target: #details-audioblock" class="button-plain">Projekt-Details +</a>
                             </div>
                         </div>
                     </div>
@@ -222,26 +221,32 @@ get_header();
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Audioblock</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>Die Audioblock GmbH mit Sitz in Wüsting stellt Premium-HiFi-Geräte her. Seit 1988 bietet das inhabergeführte Unternehmen von klassischen Lautsprechern und Kompaktanlagen über Smartradios und Multifunktionsgeräten alles, was das audiophile Herz begehrt. Vom Plattenspieler bis zum HiFi-Möbel setzt das Unternehmen auf erstklassige Qualität und perfekten Kundenservice.</p>
                             <h5 class="is-style-h5 small-margin">Projekt</h5>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>Ziel war ein neuer Onlineshop, der von den Audioblock-Mitarbeitern selbstständig gepflegt werden kann. Wir entschieden uns für Shopware 6, welches um viele Besonderheiten ergänzt wurde: eine Fachhändlersuche, verschiedene Versandmethoden, sowie einen B2B-Shop mit unterschiedlichen Konditionen für die Audioblock-Fachhändler. Verschiedene Landingpages für Standorte und Fachhändler machen den Audioblock-Onlineshop zu einem erfolgreichen Vertriebsinstrument.</p>
                             <h5 class="is-style-h5">Leistungen:</h5>
                             <div class="leistungen-buttons">
-                                <span>Webdesign</span> <span>Wordpress</span> <span>Hosting</span> <span>SEO</span>
+                                <span>Konzeption</span>
+                                <span>Onlineshop</span>
+                                <span>Webdesign</span>
+                                <span>Shopware 6</span>
+                                <span>Landingpages</span>
+                                <span>Hosting</span>
                                 <span>SEA</span>
+                                <span>SEO</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- PT Oldenburg -->
-                <div class="slide" id="slide-audioblock" style="background: #f5c518;">
+                <div class="slide" id="slide-pt-oldenburg" style="background: #f5c518;">
                     <div class="">
                         <div class="video-wrapper">
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/pt-oldenburg.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">PT Oldenburg.</h3>
-                                <!--<a uk-toggle="target: #details-pt-oldenburg" class="button-plain">Projekt-Details +</a>-->
+                                <a uk-toggle="target: #details-pt-oldenburg" class="button-plain">Projekt-Details +</a>
                             </div>
                         </div>
                     </div>
@@ -249,26 +254,31 @@ get_header();
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">PT Oldenburg</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>André Janacek ist mit PT Oldenburg die erste Adresse, wenn es um Personal Training in Oldenburg geht. Zusammen mit seinem Team aus Trainern, Physiotherapeuten und Diätassistenten bietet er im eigenen Studio in der Rosenstraße in Oldenburg eine große Bandbreite an Trainingsmöglichkeiten und Leistungen an – von der Ernährungsberatung über Physiotherapie bis zum Krafttraining.</p>
                             <h5 class="is-style-h5 small-margin">Projekt</h5>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>Wir betreuen André seit der ersten Stunde: Vom Logo bis hin zu sämtlichen Marketingmaterialien kümmern wir uns seit 2015 um Branding und Marketing. Dazu gehört auch die Website, die mit authentischen Bildern und übersichtlicher, zeitgemäßer Darstellung des Angebots neue Klienten anzieht: bei der Webseite war es oberste Priorität, mit dem Keyword „Personaltraining Oldenburg“ ganz oben in den Suchmaschinen zu stehen – dies ist uns gelungen.</p>
                             <h5 class="is-style-h5">Leistungen:</h5>
                             <div class="leistungen-buttons">
-                                <span>Webdesign</span> <span>Wordpress</span> <span>Hosting</span> <span>SEO</span>
-                                <span>SEA</span>
+                                <span>Logo</span>
+                                <span>Website</span>
+                                <span>Webdesign</span>
+                                <span>Wordpress</span>
+                                <span>Hosting</span>
+                                <span>SEO</span>
+                                <span>Animationen</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- BRUNO -->
-                <div class="slide" id="slide-audioblock" style="background: #f39711;">
+                <div class="slide" id="slide-bruno" style="background: #f39711;">
                     <div class="">
                         <div class="video-wrapper">
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/bruno.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">BRUNO.</h3>
-                                <!--<a uk-toggle="target: #details-bruno" class="button-plain">Projekt-Details +</a>-->
+                                <a uk-toggle="target: #details-bruno" class="button-plain">Projekt-Details +</a>
                             </div>
                         </div>
                     </div>
@@ -276,53 +286,29 @@ get_header();
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Bruno</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>Bruno – der Oldenbäcker ist mit über 26 Filialen einer der bekanntesten und größten Bäckereien in Oldenburg und Umgebung. Hochwertige, regionale Rohstoffe sind bei Bruno genauso wichtig wie Handwerk und Tradition: Die Ursprünge der Bäckerei-Kette reichen bis in die 1960er Jahre zurück.</p>
                             <h5 class="is-style-h5 small-margin">Projekt</h5>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>Bei diesem Projekt ging es darum, die Bruno-Website modern und zeitgemäß umzusetzen. Über alle Geräte und vor allem mobil sollte die Website intuitiv und gut bedienbar sein. Neben allgemeinen Informationen zum Unternehmen und einem umfangreichen Karrierebereich sollte die Website vor allem die Produkte übersichtlich und mit Nährwertangaben versehen präsentieren. Eine Kategoriefilterung erleichtert das Stöbern. Der Filialfinder mit Karte rundet das Onlineprojekt ab.</p>
                             <h5 class="is-style-h5">Leistungen:</h5>
                             <div class="leistungen-buttons">
-                                <span>Webdesign</span> <span>Wordpress</span> <span>Hosting</span> <span>SEO</span>
-                                <span>SEA</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dringenburger -->
-                <div class="slide" id="slide-audioblock" style="background: #cdac72;">
-                    <div class="">
-                        <div class="video-wrapper">
-                            <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
-                            <div class="referenz-content-wrapper">
-                                <h3 class="is-style-h1-big txt-white">Dringenburger.</h3>
-                                <!--<a uk-toggle="target: #details-dringenburger" class="button-plain">Projekt-Details +</a>-->
-                            </div>
-                        </div>
-                    </div>
-                    <div id="details-dringenburger" uk-modal>
-                        <div class="uk-modal-dialog uk-modal-body">
-                            <button class="uk-modal-close-default" type="button" uk-close></button>
-                            <h2 class="is-style-h2">Dringenburger</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                            <h5 class="is-style-h5 small-margin">Projekt</h5>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-                            <h5 class="is-style-h5">Leistungen:</h5>
-                            <div class="leistungen-buttons">
-                                <span>Webdesign</span> <span>Wordpress</span> <span>Hosting</span> <span>SEO</span>
-                                <span>SEA</span>
+                                <span>Website</span>
+                                <span>Webdesign</span>
+                                <span>Wordpress</span>
+                                <span>Hosting</span>
+                                <span>Webentwicklung</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Stopp & Gabler -->
-                <div class="slide" id="slide-audioblock" style="background: #15a7e3;">
+                <div class="slide" id="slide-stopp-gabler" style="background: #15a7e3;">
                     <div class="">
                         <div class="video-wrapper">
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/kfo.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">Gabler & Stopp.</h3>
-                                <!--<a uk-toggle="target: #details-stopp-gabler" class="button-plain">Projekt-Details +</a>-->
+                                <a uk-toggle="target: #details-stopp-gabler" class="button-plain">Projekt-Details +</a>
                             </div>
                         </div>
                     </div>
@@ -330,26 +316,56 @@ get_header();
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Gabler & Stopp</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>Die sympathische Kieferorthopädiepraxis Gabler & Stopp in Oldenburg ist insbesondere bekannt für ihre unsichtbaren Zahnspangen. Im Rahmen eins ganzheitlichen Verständnisses von Kieferorthopädie ist über sichtbare, unsichtbare, feste und herausnehmbare Zahnspangen hinaus der Patient und seine Gebissentwicklung im Ganzen im Fokus. Seit den letzten Jahren lassen sich zunehmend auch Erwachsene kieferorthopädisch behandeln – ein spannendes Feld für das Ärzte-Ehepaar Gabler.</p>
                             <h5 class="is-style-h5 small-margin">Projekt</h5>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>Durch die neue und moderne Wordpress-Website sollte gleich mehrere Zwecke erfüllen: Zum einen sollte Patienten und potenziellen neuen Mitarbeitern ein authentischer, freundlicher Einblick in die Praxis gegeben werden, zum anderen sollte die Praxis in den Suchmaschinen gut gefunden werden. Unsere Bemühungen im Bereich SEO gingen dafür weit über generische Suchbegriffe wie „Kieferorthopädie Oldenburg“ hinaus, sodass die Praxis heute mit interessanten Keywords wie „unsichtbare Zahnspangen“ gut rankt.</p>
                             <h5 class="is-style-h5">Leistungen:</h5>
                             <div class="leistungen-buttons">
-                                <span>Webdesign</span> <span>Wordpress</span> <span>Hosting</span> <span>SEO</span>
-                                <span>SEA</span>
+                                <span>Website</span>
+                                <span>Webdesign</span>
+                                <span>Wordpress</span>
+                                <span>Hosting</span>
+                                <span>SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dringenburger -->
+                <div class="slide" id="slide-dringenburger" style="background: #cdac72;">
+                    <div class="">
+                        <div class="video-wrapper">
+                            <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/dringenburger.mp4" playsinline=""></video>
+                            <div class="referenz-content-wrapper">
+                                <h3 class="is-style-h1-big txt-white">Dringenburger.</h3>
+                                <a uk-toggle="target: #details-dringenburger" class="button-plain">Projekt-Details +</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="details-dringenburger" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="is-style-h2">Dringenburger</h2>
+                            <p>Die Dringenburger Interieur GmbH existiert in ihren Wurzeln bereits seit 1993. Der Tischlereibetrieb mit Sitz in Wiefelstede/Dringenburg beschäftigt 30 Mitarbeiter und legt besonderen Wert auf modernste Produktionstechniken und verlässlich hohen Qualitätsstandard. Die Dringenburger haben sich hier insbesondere der nachhaltigen Produktion verschrieben. Diesem Ansatz widmen sie einer ganz eigenen Möbellinie.</p>
+                            <h5 class="is-style-h5 small-margin">Projekt</h5>
+                            <p>Im Rahmen der Entwicklung der nachhaltigen Möbelserie „Dringenburger“ entstand der praktische Schreibtisch JOON nach dem Motto „Raum für Zukunft“ und mit dem Slogan „Made in Norddeutschland. Ohne Schnickschnack“. Hier sollte ein Onlineshop erstellt werden. Auf Basis von Shopify wurde hier für das Pilotprojekt ein schmales Theme aufgesetzt. Verschiedene Versandmethoden und zahlreiche Bezahlvarianten waren hier eine Herausforderung. Der Shop ist nun Basis verschiedenster Online Marketing-Kampagnen.</p>
+                            <h5 class="is-style-h5">Leistungen:</h5>
+                            <div class="leistungen-buttons">
+                                <span>Konzeption</span>
+                                <span>Shopify</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Trendcom -->
-                <div class="slide" id="slide-audioblock" style="background: #188990;">
+                <div class="slide" id="slide-trendcom" style="background: #188990;">
                     <div class="">
                         <div class="video-wrapper">
                             <video muted="" src="<?php echo get_template_directory_uri(); ?>/video/trendcom.mp4" playsinline=""></video>
                             <div class="referenz-content-wrapper">
                                 <h3 class="is-style-h1-big txt-white">Trendcom.</h3>
-                                <!--<a uk-toggle="target: #details-trendcom" class="button-plain">Projekt-Details +</a>-->
+                                <a uk-toggle="target: #details-trendcom" class="button-plain">Projekt-Details +</a>
                             </div>
                         </div>
                     </div>
@@ -357,23 +373,21 @@ get_header();
                         <div class="uk-modal-dialog uk-modal-body">
                             <button class="uk-modal-close-default" type="button" uk-close></button>
                             <h2 class="is-style-h2">Trendcom</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>TrendCOM ist Dienstleister für hochwertigen Telefonservice und weitere Support-Lösungen für hochwertige Kundendialoge. Das Unternehmen existiert bereits seit 1997 und ist weit mehr als ein klassisches Call-Center: mit mehr als 20 festen Mitarbeitern leistet TrendCom Support per Telefon, E-Mail und auf Social Media. Zu den bekanntesten und längsten Auftraggebern zählt der Oldenburger Foto-Riese cewe.</p>
                             <h5 class="is-style-h5 small-margin">Projekt</h5>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            <p>Die in die Jahre gekommene Website wurde modernisiert und für sämtliche Endgeräte optimiert. Potenzielle Auftraggeber sollten sämtliche Dienstleistungen und den außerordentlichen Qualitätsanspruch des Unternehmens erkennen. Ein weiteres Ziel der Website, die auf WordPress-Basis erstellt wurde, ist außerdem das Rekrutieren neuer Mitarbeiter. Hier präsentiert sich das Unternehmen und seine Geschäftsführerin und veröffentlicht Stellenanzeigen, die auf verschiedenen Kanälen beworben werden.</p>
                             <h5 class="is-style-h5">Leistungen:</h5>
                             <div class="leistungen-buttons">
-                                <span>Webdesign</span> <span>Wordpress</span> <span>Hosting</span> <span>SEO</span>
-                                <span>SEA</span>
+                                <span>Website</span>
+                                <span>Webdesign</span>
+                                <span>Wordpress</span>
+                                <span>Hosting</span>
+                                <span>SEO</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-
-        </div>
         </div>
 
         <!-- SECTION KUNDEN -->
@@ -455,31 +469,31 @@ get_header();
                     <h2 class="is-style-h2">Warum deux websolutions?</h2>
                 </div>
                 <div uk-grid class="uk-grid-large uk-flex-center">
-                    <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="uk-width-1-3@l uk-width-1-2@m">
                         <div class="wrapper with-icon icon-lampe">
                             <h4 class="is-style-h4">Über 10 Jahre Know-How.</h4>
                             <p>Unsere Erfolge sind nachweisbar und für Sie nachvollziehbar. Seit über 10 Jahren bieten wir passende Lösungen und liefern messbare Ergebnisse, statt realitätsferne Versprechen.</p>
                         </div>
                     </div>
-                    <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="uk-width-1-3@l uk-width-1-2@m">
                         <div class="wrapper with-icon icon-rakete">
                             <h4 class="is-style-h4">Out-of-the-box denken.</h4>
                             <p>Manche Probleme erfordern ein Out-of-the-box Denken. Unsere Vorgehensweise ist individuell und an Ihre speziellen Bedürfnisse und Wünsche angepasst.</p>
                         </div>
                     </div>
-                    <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="uk-width-1-3@l uk-width-1-2@m">
                         <div class="wrapper with-icon icon-haende">
                             <h4 class="is-style-h4">Professionelles Team.</h4>
                             <p>Als Webagentur in Oldenburg bestehen wir aus einem professionellen Team, das für digitales Marketing brennt und bestrebt darin ist, Sie mit echtem Wachstum zu überzeugen.</p>
                         </div>
                     </div>
-                    <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="uk-width-1-3@l uk-width-1-2@m">
                         <div class="wrapper with-icon icon-geld">
                             <h4 class="is-style-h4">Passend zu Ihrem Budget.</h4>
                             <p>Wir glauben an Ehrlichkeit, an Integrität und an den Respekt gegenüber unseren Kunden. Wir bieten Ihnen, passend zu Ihrem Budget, individuelle Lösungen für messbare Erfolge.</p>
                         </div>
                     </div>
-                    <div class="uk-width-1-3@l uk-width-1-2@m fade-in">
+                    <div class="uk-width-1-3@l uk-width-1-2@m">
                         <div class="wrapper with-icon icon-netzwerk">
                             <h4 class="is-style-h4">Großes Experten-Netzwerk.</h4>
                             <p>Wir haben uns auf wichtige Leistungen spezialisiert, die viele Probleme lösen können. Sollten wir dennoch an unsere Grenzen stoßen, haben wir ein professionelles Netzwerk das wir nutzen können.</p>
